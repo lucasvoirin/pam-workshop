@@ -1,0 +1,24 @@
+{{ $name := .Get 0 }}
+{{ $page := site.GetPage (printf "/team/%s" $name) }}
+
+{{ if $page }}
+{{ $photo := $page.Params.photo | default "/images/default.jpg" }}
+<a href="{{ $page.Permalink }}" style="text-decoration: none; color: inherit;">
+  <div style="display: flex; align-items: center; gap: 8px;
+              border: 1px solid #ccc; border-radius: 8px; padding: 6px 10px;
+              width: 220px; transition: box-shadow 0.2s;"
+       onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)'"
+       onmouseout="this.style.boxShadow='none'">
+    <img src="{{ $photo }}" class="nozoom"
+         style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover; flex-shrink: 0;">
+    <div>
+      <div style="font-weight: 700; font-size: 0.9em; line-height: 1.2;">{{ $page.Title }}</div>
+      {{ with $page.Description }}
+      <div style="font-size: 0.75em; color: #666; line-height: 1.2;">{{ . }}</div>
+      {{ end }}
+    </div>
+  </div>
+</a>
+{{ else }}
+<span style="color: red;">Membre « {{ $name }} » introuvable</span>
+{{ end }}

@@ -1,0 +1,163 @@
+{{ define "main" }}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+  .social-btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+    color: white !important;
+    font-size: 1.1em;
+  }
+  .social-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    opacity: 0.9;
+  }
+  .social-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+  }
+  .btn-email    { background: #555555; }
+  .btn-github   { background: #24292e; }
+  .btn-linkedin { background: #0077b5; }
+  .btn-bluesky  { background: #0085ff; }
+  .btn-orcid    { background: #a6ce39; }
+  .btn-scholar  { background: #4285f4; }
+  .btn-website  { background: var(--color-primary, #666); }
+</style>
+
+<div style="max-width: 800px; margin: 60px auto; padding: 0 20px;">
+
+  <!-- En-tête -->
+  <div style="display: flex; gap: 40px; align-items: flex-start; flex-wrap: wrap;">
+
+    <!-- Photo -->
+    <div style="flex-shrink: 0;">
+      {{ with .Params.photo }}
+      <img src="{{ . }}"
+           style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+      {{ end }}
+    </div>
+
+    <!-- Infos principales -->
+    <div style="flex: 1; min-width: 250px;">
+      <h1 style="margin: 0 0 8px 0; font-size: 2em;">{{ .Title }}</h1>
+
+      {{ with .Params.description }}
+      <p style="color: var(--color-primary); font-size: 1.2em; margin: 0 0 16px 0;">{{ . }}</p>
+      {{ end }}
+
+      <!-- Boutons réseaux sociaux -->
+      <div style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+
+        {{ with .Params.email }}
+        <a href="mailto:{{ . }}" class="social-btn btn-email" title="{{ . }}">
+           {{ partial "icon.html" "envelope" }}
+        </a>
+        {{ end }}
+
+        {{ with .Params.github }}
+        <a href="{{ . }}" target="_blank" class="social-btn btn-github" title="GitHub">
+           {{ partial "icon.html" "github" }}
+        </a>
+        {{ end }}
+
+        {{ with .Params.linkedin }}
+        <a href="{{ . }}" target="_blank" class="social-btn btn-linkedin" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        {{ end }}
+
+        {{ with .Params.bluesky }}
+        <a href="{{ . }}" target="_blank" class="social-btn btn-bluesky" title="Bluesky">
+           {{ partial "icon.html" "bluesky" }}
+        </a>
+        {{ end }}
+
+        {{ with .Params.orcid }}
+        <a href="{{ . }}" target="_blank" class="social-btn btn-orcid" title="ORCID">
+           {{ partial "icon.html" "orcid" }}
+        </a>
+        {{ end }}
+
+        {{ with .Params.googlescholar }}
+        <a href="{{ . }}" target="_blank" class="social-btn btn-scholar" title="Google Scholar">
+           {{ partial "icon.html" "google-scholar" }}
+        </a>
+        {{ end }}
+
+        {{ with .Params.website }}
+        <a href="{{ . }}" target="_blank" class="social-btn btn-website" title="Site web">
+           {{ partial "icon.html" "link" }}
+        </a>
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+
+  <hr style="margin: 40px 0; opacity: 0.5;">
+
+  <!-- Contenu Markdown -->
+  {{ if .Content }}
+  <div class="markdown-content" style="line-height: 1.8; margin-bottom: 40px;">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+</div>
+
+
+
+
+
+  <!-- Pages associées -->
+{{ $currentName := path.BaseName .File.BaseFileName }}
+{{ $related := slice }}
+{{ range where site.Pages "Section" "in" (slice "research" "posts") }}
+  {{ if strings.Contains .RawContent (printf "people %q" $currentName) }}
+    {{ $related = $related | append . }}
+  {{ end }}
+{{ end }}
+
+  {{ if $related }}
+  <hr style="margin: 40px 0; opacity: 0.2;">
+  <h2 style="margin-bottom: 16px;">
+<!-- {{ if eq site.Language.Lang "fr" }}Projets de recherche{{ else }}Research projects{{ end }} -->
+</h2>
+  <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+    {{ range $related }}
+    <li>
+      <a href="{{ .Permalink }}" style="text-decoration: none; color: inherit;
+         display: flex; align-items: center; gap: 10px; padding: 10px 14px;
+         border: 1px solid #ccc; border-radius: 8px; transition: box-shadow 0.2s;"
+         onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)'"
+         onmouseout="this.style.boxShadow='none'">
+        <i class="fas fa-file-alt" style="opacity: 0.5;"></i>
+<span style="font-weight: 600;">{{ .Title }}</span>
+{{ $labels := dict "research" (dict "fr" "Projets" "en" "Projects") "posts" (dict "fr" "Nouvelles" "en" "News") }}
+{{ $lang := site.Language.Lang }}
+{{ $label := index (index $labels .Section) $lang | default .Section }}
+<span style="font-size: 0.8em; color: #888; margin-left: auto;">{{ $label }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+
+
+
+
+
+
+{{ end }}

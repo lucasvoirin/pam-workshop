@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4. Communication des résultats on Le suivi acoustique passif</title>
+    <link>http://localhost:1313/fr/workshop/communication/</link>
+    <description>Recent content in 4. Communication des résultats on Le suivi acoustique passif</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© 2026 </copyright>
+    <atom:link href="http://localhost:1313/fr/workshop/communication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Le code</title>
+      <link>http://localhost:1313/fr/workshop/communication/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fr/workshop/communication/code/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Les sons</title>
+      <link>http://localhost:1313/fr/workshop/communication/sounds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fr/workshop/communication/sounds/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Trouver des données</title>
+      <link>http://localhost:1313/fr/workshop/communication/libraries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fr/workshop/communication/libraries/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

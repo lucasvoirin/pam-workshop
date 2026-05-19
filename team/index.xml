@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Équipe on Laboratoire de biologie de la conservation quantitative</title>
+    <link>http://localhost:1313/team/</link>
+    <description>Recent content in Équipe on Laboratoire de biologie de la conservation quantitative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© 2026 </copyright>
+    <atom:link href="http://localhost:1313/team/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Alice</title>
+      <link>http://localhost:1313/team/alice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/alice/</guid>
+      <description>&lt;p&gt;On peut écrire tout ce qu&amp;rsquo;on veut ici&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Bob</title>
+      <link>http://localhost:1313/team/bob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/bob/</guid>
+      <description>&lt;p&gt;On peut écrire tout ce qu&amp;rsquo;on veut ici&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Marc J. Mazerolle</title>
+      <link>http://localhost:1313/team/marc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/team/marc/</guid>
+      <description>&lt;p&gt;On peut écrire tout ce qu&amp;rsquo;on veut ici&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

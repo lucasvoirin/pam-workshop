@@ -17,3 +17,6 @@ Get started
 > [!TIP] **Vous préférez lire en français ?**
 > 
 > Allez à la [version française de ce site](../fr/).
+
+
+This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>

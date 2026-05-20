@@ -1,6 +1,6 @@
 disabled = false
 locale = "en"
-languageName = "English"
+label = "English"
 weight = 1
 title = "Passive Acoustic Monitoring"
 

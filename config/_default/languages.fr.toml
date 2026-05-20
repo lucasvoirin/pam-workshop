@@ -1,6 +1,6 @@
 disabled = false
 locale = "fr"
-languageName = "Français"
+label = "Français"
 weight = 1
 title = "Le suivi acoustique passif"
 

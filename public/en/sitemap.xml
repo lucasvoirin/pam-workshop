@@ -18,21 +18,6 @@
     />
   </url>
   <url>
-    <loc>https://lucasvoirin.github.io/pam-workshop/en/ressources/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="https://lucasvoirin.github.io/pam-workshop/fr/ressources/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://lucasvoirin.github.io/pam-workshop/en/ressources/"
-    />
-  </url>
-  <url>
     <loc>https://lucasvoirin.github.io/pam-workshop/en/workshop/research_question/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -90,6 +75,21 @@
       rel="alternate"
       hreflang="en"
       href="https://lucasvoirin.github.io/pam-workshop/en/workshop/"
+    />
+  </url>
+  <url>
+    <loc>https://lucasvoirin.github.io/pam-workshop/en/ressources/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://lucasvoirin.github.io/pam-workshop/fr/ressources/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lucasvoirin.github.io/pam-workshop/en/ressources/"
     />
   </url>
 </urlset>

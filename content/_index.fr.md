@@ -17,3 +17,6 @@ Commencer
 > [!TIP] **Prefer reading in English?**
 > 
 > Go to the [english version of this website](../en/).
+
+
+Ce travail est sous licence <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>

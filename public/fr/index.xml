@@ -2,140 +2,140 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Le suivi acoustique passif</title>
-    <link>http://localhost:1313/pam-workshop/fr/</link>
+    <link>https://lucasvoirin.github.io/pam-workshop/fr/</link>
     <description>Recent content on Le suivi acoustique passif</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     
-    <atom:link href="http://localhost:1313/pam-workshop/fr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lucasvoirin.github.io/pam-workshop/fr/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>C&#39;est quoi un son?</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/sound/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/sound/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/</guid>
       <description>&lt;p&gt;Un son, c&amp;rsquo;est une vibration qui se propage dans un milieu (l&amp;rsquo;air ou l&amp;rsquo;eau par exemple).&lt;/p&gt;&#xA;&lt;p&gt;Cette vibration peut être produite par le mouvement d&amp;rsquo;un objet (une corde de guitare, une membrane de tambour).&lt;/p&gt;&#xA;&lt;p&gt;En bougeant dans le milieu, cet objet crée un alternance de pressions et de dépressions dans le milieu.&lt;/p&gt;&#xA;&lt;p&gt;Ce sont ces variations de pression qui se propagent et qui sont captées par nos oreilles ou par les microphones de nos enregistreurs passifs.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Le code</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/communication/code/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/communication/code/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Matériel</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/deployment/equipment/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/equipment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/deployment/equipment/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/equipment/</guid>
       <description>&lt;p&gt;L&amp;rsquo;outil de base du suivi acoustique passif est l&amp;rsquo;enregistreur autonome.&lt;/p&gt;&#xA;&lt;p&gt;Il s&amp;rsquo;agit d&amp;rsquo;un appareil électronique programmable composé d&amp;rsquo;un système de capture du son, d&amp;rsquo;un système d&amp;rsquo;alimentation électrique et d&amp;rsquo;un système de stockage des données.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Programmation des enregistrements&#xA;    &lt;div id=&#34;programmation-des-enregistrements&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;intérêt de l&amp;rsquo;enregistreur autonome repose principalement sur la possibilité de pouvoir le programmer. L&amp;rsquo;interface de programmation est différente selon les constructeurs et les modèles mais les options restent similaires.&lt;/p&gt;&#xA;&lt;p&gt;Il est généralement possible de programmer la fréquence et la durée des périodes d&amp;rsquo;enregistrement, mais aussi de baser les périodes sur le lever et coucher du soleil.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Objectifs de l&#39;étude</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/research_question/objectives/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/research_question/objectives/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/objectives/</guid>
       <description>&lt;blockquote&gt;&lt;p&gt;Pourquoi choisir de mettre en place un suivi acoustique passif ?&lt;/p&gt;&#xA;&lt;p&gt;À quelles questions cela permet-il de répondre ?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;1. Étudier une population&#xA;    &lt;div id=&#34;1-étudier-une-population&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Un suivi acoustique passif peut permettre de répondre à différentes questions relatives à une espèce d&amp;rsquo;intérêt.&lt;/p&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;Détecter la présence&#xA;    &lt;div id=&#34;détecter-la-présence&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Les possibilités de couverture spatiale et temporelle, le caractère non invasif et la capacité à détecter des espèces difficilement observables autrement sont des atouts importants de l&amp;rsquo;utilisation du suivi acoustique passif pour la détection d&amp;rsquo;espèces.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Avantages et limites</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/research_question/advantages_limitations/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/research_question/advantages_limitations/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</guid>
       <description>&lt;blockquote&gt;&lt;p&gt;Pourquoi est-ce utile d&amp;rsquo;utiliser le suivi acoustique passif ?&lt;/p&gt;&#xA;&lt;p&gt;Dans quel contexte cela n&amp;rsquo;est pas pertinent ?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Avantages&#xA;    &lt;div id=&#34;avantages&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Suivi autonome&lt;/li&gt;&#xA;&lt;li&gt;Méthode non invasive&lt;/li&gt;&#xA;&lt;li&gt;Suivi à long terme&lt;/li&gt;&#xA;&lt;li&gt;Suivi d&amp;rsquo;espèces discrètes&lt;/li&gt;&#xA;&lt;li&gt;Diversité des environnements&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Limites&#xA;    &lt;div id=&#34;limites&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Nécessite que les espèces produisent des sons&lt;/li&gt;&#xA;&lt;li&gt;Nécessite que les sons produits soient liés à la problématique&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       
     </item>
     
     <item>
       <title>Le spectrogramme</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/spectrogram/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/spectrogram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/spectrogram/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/spectrogram/</guid>
       <description>&lt;p&gt;Les sons que l&amp;rsquo;on enregistre sont des signaux complexes, composés de différentes fréquences et amplitudes. La représentation la plus simple est celle de la forme d&amp;rsquo;onde, qui affiche la pression en fonction du temps.&lt;/p&gt;&#xA;&lt;p&gt;Pour faciliter la visualisation des fréquences et amplitudes composant un signal, on utilise un spectrogramme.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Les sons</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/communication/sounds/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/communication/sounds/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Réglages des enregistreurs</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/deployment/settings/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/settings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/deployment/settings/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/settings/</guid>
       <description>&lt;p&gt;Lors de la programmation d&amp;rsquo;un enregistreur, il est généralement nécessaire de spécifier certains paramètres acoustiques. Ces paramètres définissent la façon dont le micro de enregistre la pression sonore.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Gain&#xA;    &lt;div id=&#34;gain&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Le gain est une constante par laquelle l&amp;rsquo;enregistreur multiplie la puissance du signal reçu. Cela peut permettre d&amp;rsquo;augmenter la puissance de signaux faibles ou diminuer la puissance de signaux trop forts.&lt;/p&gt;&#xA;&lt;p&gt;Même si cela peut être tentant d&amp;rsquo;augmenter le gain pour obtenir des signaux plus forts, cela entraîne généralement une augmentation du bruit et diminue ainsi la qualité des enregistrements.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Les données</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/data/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/data/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/data/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Trouver des données</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/communication/libraries/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/libraries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/communication/libraries/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/libraries/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Les outils</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/tools/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/tools/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Les approches&#xA;    &lt;div id=&#34;les-approches&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;Réseaux de neurones&#xA;    &lt;div id=&#34;réseaux-de-neurones&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Les volumes de données produits par un suivi acoustique passif peuvent être très conséquents, notamment sur des suivis à long terme. L&amp;rsquo;analyse manuelle de la totalité de ces enregistrements est souvent impossible.&lt;/p&gt;&#xA;&lt;p&gt;Le développement de l&amp;rsquo;intelligence artificielle et notamment des réseaux de neurones profonds a permis la conception d&amp;rsquo;outils informatiques utiles pour le traitement des gros volumes de données. Il existe désormais des outils tels que BirdNET et YOLO dont les interfaces ne demandent pas de trop grandes compétences en informatique.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Les biais</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/bias/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/bias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/bias/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/bias/</guid>
       <description>&lt;p&gt;Le type d&amp;rsquo;analyses statistiques à effectuer dépend de la question de recherche donc nous n&amp;rsquo;allons pas ici entrer dans le détail des différentes analyses, mais simplement mentionner des points à garder en tête pour vos analyses.&lt;/p&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;Non-indépendance des données&#xA;    &lt;div id=&#34;non-indépendance-des-données&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;La non-indépendance des données est rarement prise en compte dans les analyses statistiques faites sur les données issues de suivis acoustiques passifs.&#xA;Pourtant, il y a souvent autocorrélation temporelle et spatiale entre les enregistrements issus de ces études, due au fait qu&amp;rsquo;un même enregistreur produise différents enregistrements et que plusieurs enregistreurs peuvent être présents sur un même site.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Ressources</title>
-      <link>http://localhost:1313/pam-workshop/fr/ressources/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/ressources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/ressources/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;À télécharger&#xA;    &lt;div id=&#34;à-télécharger&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;a&#xA;  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;&#xA;  href=&#34;http://localhost:1313/pam-workshop/files/booklet.pdf&#34;&#xA;  &#xA;  &#xA;  role=&#34;button&#34;&gt;&#xA;  &#xA;Livret pédagogique&#xA;&#xA;&lt;/a&gt;</description>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/ressources/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;À télécharger&#xA;    &lt;div id=&#34;à-télécharger&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;a&#xA;  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;&#xA;  href=&#34;https://lucasvoirin.github.io/pam-workshop/files/booklet.pdf&#34;&#xA;  &#xA;  &#xA;  role=&#34;button&#34;&gt;&#xA;  &#xA;Livret pédagogique&#xA;&#xA;&lt;/a&gt;</description>
       
     </item>
     

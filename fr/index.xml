@@ -158,4 +158,11 @@ Pourtant, il y a souvent autocorrélation temporelle et spatiale entre les enreg
 
  observer.observe(container);
 })();
-&lt;/script&gt;</description></item></channel></rss>
+&lt;/script&gt;
+
+
+&lt;h2 class="relative group"&gt;Google Colab
+ &lt;div id="google-colab" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Google Colab est un service permettant d&amp;rsquo;éxécuter du code (R, Python) sur un ordinateur à distance.&lt;/p&gt;</description></item></channel></rss>

@@ -86,17 +86,76 @@
  
 &lt;/h3&gt;
 &lt;p&gt;La non-indépendance des données est rarement prise en compte dans les analyses statistiques faites sur les données issues de suivis acoustiques passifs.
-Pourtant, il y a souvent autocorrélation temporelle et spatiale entre les enregistrements issus de ces études, due au fait qu&amp;rsquo;un même enregistreur produise différents enregistrements et que plusieurs enregistreurs peuvent être présents sur un même site.&lt;/p&gt;</description></item><item><title>Ressources</title><link>https://lucasvoirin.github.io/pam-workshop/fr/ressources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/ressources/</guid><description>&lt;h2 class="relative group"&gt;À télécharger
- &lt;div id="à-télécharger" class="anchor"&gt;&lt;/div&gt;
+Pourtant, il y a souvent autocorrélation temporelle et spatiale entre les enregistrements issus de ces études, due au fait qu&amp;rsquo;un même enregistreur produise différents enregistrements et que plusieurs enregistreurs peuvent être présents sur un même site.&lt;/p&gt;</description></item><item><title>Ressources</title><link>https://lucasvoirin.github.io/pam-workshop/fr/ressources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/ressources/</guid><description>&lt;h2 class="relative group"&gt;Documents
+ &lt;div id="documents" class="anchor"&gt;&lt;/div&gt;
  
 &lt;/h2&gt;
-&lt;a
- class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
- href="https://lucasvoirin.github.io/pam-workshop/files/booklet.pdf"
- 
- 
- role="button"&gt;
- 
-Livret pédagogique
+&lt;div class="pdf-wrapper"&gt;
+ &lt;iframe 
+ src="https://lucasvoirin.github.io/pam-workshop/files/booklet.pdf" 
+ width="100%" 
+ height="600"
+ style="border:none;"&gt;
+ &lt;/iframe&gt;
+&lt;/div&gt;
 
-&lt;/a&gt;</description></item></channel></rss>
+
+&lt;h2 class="relative group"&gt;Audio
+ &lt;div id="audio" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;div id="ws-container-demo1" class="ws-widget"&gt;
+ &lt;div id="waveform-demo1"&gt;&lt;/div&gt;
+ &lt;div id="spectrogram-demo1"&gt;&lt;/div&gt;
+
+ 
+ &lt;audio id="audio-demo1" controls style="width:100%"&gt;&lt;/audio&gt;
+&lt;/div&gt;
+
+&lt;script src="https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://unpkg.com/wavesurfer.js@7/dist/plugins/spectrogram.min.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+(function() {
+ const id = 'demo1';
+ const SpectrogramPlugin = WaveSurfer.Spectrogram;
+
+ const container = document.getElementById('ws-container-' + id);
+ const audioEl = document.getElementById('audio-' + id);
+
+ const observer = new ResizeObserver((entries) =&gt; {
+ const width = entries[0].contentRect.width;
+
+ if (width &gt; 100) {
+ observer.disconnect();
+
+ const ws = WaveSurfer.create({
+ container: '#waveform-' + id,
+ media: audioEl, 
+ waveColor: '#4F8EF7',
+ progressColor: '#1a56db',
+ height: 80 ,
+ normalize: true,
+ fillParent: true,
+
+ plugins: [
+ SpectrogramPlugin.create({
+ container: '#spectrogram-' + id,
+ labels: true,
+ fftSamples: 1024,
+ noverlap: 512,
+ windowFunc: 'hann',
+ scale: 'linear',
+ height: 150 ,
+ }),
+ ],
+ });
+
+ 
+ ws.load('\/pam-workshop\/audio\/clips.wav');
+ }
+ });
+
+ observer.observe(container);
+})();
+&lt;/script&gt;</description></item></channel></rss>

@@ -44,13 +44,13 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [footer]
   showMenu = true
-  showCopyright = true
+  showCopyright = false
   showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
-  layout = "hero" # valid options: page, profile, hero, card, background, custom
+  layout = "page" # valid options: page, profile, hero, card, background, custom
   homepageImage = "baner.webp" # used in: hero, and card
   showRecent = false
   showRecentItems = 5
@@ -69,19 +69,19 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showDateUpdated = false
   showAuthor = false
   # showAuthorBottom = false
-  showHero = false
+  showHero = true
   # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
-  # editURL = "https://github.com/username/repo/"
+  editURL = "https://github.com/lucasvoirin/pam-workshop/tree/main/content"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = false
   showPagination = true
-  invertPagination = false
+  invertPagination = true
   showReadingTime = false
   showTableOfContents = true
   # showRelatedContent = false
@@ -95,7 +95,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # externalLinkForceNewTab = false # disable to allow external links in the same tab (defaults to true)
 
 [list]
-  showHero = false
+  showHero = true
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
@@ -107,7 +107,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showCards = true
   orderByWeight = true
   groupByYear = false
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
   constrainItemsWidth = false
 

@@ -1,6 +1,7 @@
 ---
 title: C'est quoi un son?
 format: hugo-md
+weight: 1
 ---
 
 ```{r setup, include=FALSE}
@@ -71,6 +72,7 @@ abline(v=c(0,1),lty="dotted")
 La sensation auditive associée à la fréquence correspond à des sons perçus comme plus ou moins graves ou aigus. Plus la fréquence est grande (beaucoup de périodes en une seconde), plus le son nous parait aigu.
 
 L'oreille humaine est capable de percevoir des sons allant de 20 à 20000 Hz, soit de 20 à 20000 périodes par seconde. En dessous de 20 Hz, ce sont des infrasons, au dessus de 20 000 Hz, ce sont des ultrasons.
+
 
 
 ### L'amplitude

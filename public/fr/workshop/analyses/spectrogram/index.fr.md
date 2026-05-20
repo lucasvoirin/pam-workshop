@@ -1,0 +1,10 @@
+---
+title: Le spectrogramme
+weight: 2
+format: hugo-md
+---
+
+
+Les sons que l'on enregistre sont des signaux complexes, composés de différentes fréquences et amplitudes. La représentation la plus simple est celle de la forme d'onde, qui affiche la pression en fonction du temps.
+
+Pour faciliter la visualisation des fréquences et amplitudes composant un signal, on utilise un spectrogramme.

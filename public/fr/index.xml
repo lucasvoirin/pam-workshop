@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</guid>
-      <description></description>
+      <description>&lt;p&gt;Du design du suivi, jusqu&amp;rsquo;aux analyses statistiques, en passant par traitement des données acoustiques le suivi acoustic passif nécessite du code.&lt;/p&gt;&#xA;&lt;p&gt;Pour assurer la reproductibilité des analyses, il est important de rendre accessible les scripts utilisés.&lt;/p&gt;&#xA;&lt;p&gt;Plusieurs solutions existent pour gérer la sauvegarde et le partage de code. La plupart se basent sur Git.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Git&#xA;    &lt;div id=&#34;git&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Git est un logiciel permettant la gestion de versions de documents au format texte (.txt, .csv, .R, .py etc&amp;hellip;).&lt;/p&gt;</description>
       
     </item>
     
@@ -75,7 +75,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</guid>
-      <description></description>
+      <description>&lt;p&gt;Pour sauvegarder et partager des fichiers audio, il existe deux solutions principales.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Dépôts en ligne&#xA;    &lt;div id=&#34;dépôts-en-ligne&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Pour héberger des volumes conséquents de données associées à une étude spécifique, il est souvent possible d&amp;rsquo;utiliser des services de stockage génériques.&#xA;Ces services permettent généralement d&amp;rsquo;associer un DOI au je de données, ce qui facilite le référencement.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Zenodo&lt;/li&gt;&#xA;&lt;li&gt;Borealis (Canada)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Sites spécialisés&#xA;    &lt;div id=&#34;sites-spécialisés&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Certains sites web se sont spécialisés dans la collecte de données naturalistes, et en particulier de sons. Si vos données sont associées à des espèces (grâce à une annotation manuelle par exemple) cela peut être intéressant de les déposer sur ces services.&lt;/p&gt;</description>
       
     </item>
     
@@ -95,17 +95,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/data/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Trouver des données</title>
-      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/libraries/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/libraries/</guid>
-      <description></description>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Données acoustiques&#xA;    &lt;div id=&#34;données-acoustiques&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Métadonnées&#xA;    &lt;div id=&#34;métadonnées&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Plan de gestion des données&#xA;    &lt;div id=&#34;plan-de-gestion-des-données&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;</description>
       
     </item>
     

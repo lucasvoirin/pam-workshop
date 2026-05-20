@@ -48,11 +48,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/libraries/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>4. Communication des résultats on Le suivi acoustique passif</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/</link><description>Recent content in 4. Communication des résultats on Le suivi acoustique passif</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/index.xml" rel="self" type="application/rss+xml"/><item><title>Le code</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</guid><description/></item><item><title>Les sons</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</guid><description/></item><item><title>Trouver des données</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/libraries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/libraries/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>4. Communication des résultats on Le suivi acoustique passif</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/</link><description>Recent content in 4. Communication des résultats on Le suivi acoustique passif</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/index.xml" rel="self" type="application/rss+xml"/><item><title>Le code</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</guid><description>&lt;p&gt;Du design du suivi, jusqu&amp;rsquo;aux analyses statistiques, en passant par traitement des données acoustiques le suivi acoustic passif nécessite du code.&lt;/p&gt;
+&lt;p&gt;Pour assurer la reproductibilité des analyses, il est important de rendre accessible les scripts utilisés.&lt;/p&gt;
+&lt;p&gt;Plusieurs solutions existent pour gérer la sauvegarde et le partage de code. La plupart se basent sur Git.&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;Git
+ &lt;div id="git" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Git est un logiciel permettant la gestion de versions de documents au format texte (.txt, .csv, .R, .py etc&amp;hellip;).&lt;/p&gt;</description></item><item><title>Les sons</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</guid><description>&lt;p&gt;Pour sauvegarder et partager des fichiers audio, il existe deux solutions principales.&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;Dépôts en ligne
+ &lt;div id="dépôts-en-ligne" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Pour héberger des volumes conséquents de données associées à une étude spécifique, il est souvent possible d&amp;rsquo;utiliser des services de stockage génériques.
+Ces services permettent généralement d&amp;rsquo;associer un DOI au je de données, ce qui facilite le référencement.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zenodo&lt;/li&gt;
+&lt;li&gt;Borealis (Canada)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;Sites spécialisés
+ &lt;div id="sites-spécialisés" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Certains sites web se sont spécialisés dans la collecte de données naturalistes, et en particulier de sons. Si vos données sont associées à des espèces (grâce à une annotation manuelle par exemple) cela peut être intéressant de les déposer sur ces services.&lt;/p&gt;</description></item></channel></rss>

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Le suivi acoustique passif</title><link>https://lucasvoirin.github.io/pam-workshop/fr/</link><description>Recent content on Le suivi acoustique passif</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://lucasvoirin.github.io/pam-workshop/fr/index.xml" rel="self" type="application/rss+xml"/><item><title>C'est quoi un son?</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/</guid><description>&lt;p&gt;Un son, c&amp;rsquo;est une vibration qui se propage dans un milieu (l&amp;rsquo;air ou l&amp;rsquo;eau par exemple).&lt;/p&gt;
 &lt;p&gt;Cette vibration peut être produite par le mouvement d&amp;rsquo;un objet (une corde de guitare, une membrane de tambour).&lt;/p&gt;
 &lt;p&gt;En bougeant dans le milieu, cet objet crée un alternance de pressions et de dépressions dans le milieu.&lt;/p&gt;
-&lt;p&gt;Ce sont ces variations de pression qui se propagent et qui sont captées par nos oreilles ou par les microphones de nos enregistreurs passifs.&lt;/p&gt;</description></item><item><title>Le code</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</guid><description/></item><item><title>Matériel</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/equipment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/equipment/</guid><description>&lt;p&gt;L&amp;rsquo;outil de base du suivi acoustique passif est l&amp;rsquo;enregistreur autonome.&lt;/p&gt;
+&lt;p&gt;Ce sont ces variations de pression qui se propagent et qui sont captées par nos oreilles ou par les microphones de nos enregistreurs passifs.&lt;/p&gt;</description></item><item><title>Le code</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</guid><description>&lt;p&gt;Du design du suivi, jusqu&amp;rsquo;aux analyses statistiques, en passant par traitement des données acoustiques le suivi acoustic passif nécessite du code.&lt;/p&gt;
+&lt;p&gt;Pour assurer la reproductibilité des analyses, il est important de rendre accessible les scripts utilisés.&lt;/p&gt;
+&lt;p&gt;Plusieurs solutions existent pour gérer la sauvegarde et le partage de code. La plupart se basent sur Git.&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;Git
+ &lt;div id="git" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Git est un logiciel permettant la gestion de versions de documents au format texte (.txt, .csv, .R, .py etc&amp;hellip;).&lt;/p&gt;</description></item><item><title>Matériel</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/equipment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/equipment/</guid><description>&lt;p&gt;L&amp;rsquo;outil de base du suivi acoustique passif est l&amp;rsquo;enregistreur autonome.&lt;/p&gt;
 &lt;p&gt;Il s&amp;rsquo;agit d&amp;rsquo;un appareil électronique programmable composé d&amp;rsquo;un système de capture du son, d&amp;rsquo;un système d&amp;rsquo;alimentation électrique et d&amp;rsquo;un système de stockage des données.&lt;/p&gt;
 
 &lt;h2 class="relative group"&gt;Programmation des enregistrements
@@ -62,14 +70,44 @@
 &lt;li&gt;la fréquence, sur l&amp;rsquo;axe des ordonnées ;&lt;/li&gt;
 &lt;li&gt;et l&amp;rsquo;amplitude, représentée par les gradients de couleurs.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src="index.fr.markdown_strict_files/figure-markdown_strict/unnamed-chunk-2-1.png" width="768" /&gt;</description></item><item><title>Les sons</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</guid><description/></item><item><title>Réglages des enregistreurs</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/settings/</guid><description>&lt;p&gt;Lors de la programmation d&amp;rsquo;un enregistreur, il est généralement nécessaire de spécifier certains paramètres acoustiques. Ces paramètres définissent la façon dont le micro de enregistre la pression sonore.&lt;/p&gt;
+&lt;img src="index.fr.markdown_strict_files/figure-markdown_strict/unnamed-chunk-2-1.png" width="768" /&gt;</description></item><item><title>Les sons</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</guid><description>&lt;p&gt;Pour sauvegarder et partager des fichiers audio, il existe deux solutions principales.&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;Dépôts en ligne
+ &lt;div id="dépôts-en-ligne" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Pour héberger des volumes conséquents de données associées à une étude spécifique, il est souvent possible d&amp;rsquo;utiliser des services de stockage génériques.
+Ces services permettent généralement d&amp;rsquo;associer un DOI au je de données, ce qui facilite le référencement.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zenodo&lt;/li&gt;
+&lt;li&gt;Borealis (Canada)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;Sites spécialisés
+ &lt;div id="sites-spécialisés" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Certains sites web se sont spécialisés dans la collecte de données naturalistes, et en particulier de sons. Si vos données sont associées à des espèces (grâce à une annotation manuelle par exemple) cela peut être intéressant de les déposer sur ces services.&lt;/p&gt;</description></item><item><title>Réglages des enregistreurs</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/settings/</guid><description>&lt;p&gt;Lors de la programmation d&amp;rsquo;un enregistreur, il est généralement nécessaire de spécifier certains paramètres acoustiques. Ces paramètres définissent la façon dont le micro de enregistre la pression sonore.&lt;/p&gt;
 
 &lt;h2 class="relative group"&gt;Gain
  &lt;div id="gain" class="anchor"&gt;&lt;/div&gt;
  
 &lt;/h2&gt;
 &lt;p&gt;Le gain est une constante par laquelle l&amp;rsquo;enregistreur multiplie la puissance du signal reçu. Cela peut permettre d&amp;rsquo;augmenter la puissance de signaux faibles ou diminuer la puissance de signaux trop forts.&lt;/p&gt;
-&lt;p&gt;Même si cela peut être tentant d&amp;rsquo;augmenter le gain pour obtenir des signaux plus forts, cela entraîne généralement une augmentation du bruit et diminue ainsi la qualité des enregistrements.&lt;/p&gt;</description></item><item><title>Les données</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/data/</guid><description/></item><item><title>Trouver des données</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/libraries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/libraries/</guid><description/></item><item><title>Les outils</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</guid><description>&lt;h2 class="relative group"&gt;Les approches
+&lt;p&gt;Même si cela peut être tentant d&amp;rsquo;augmenter le gain pour obtenir des signaux plus forts, cela entraîne généralement une augmentation du bruit et diminue ainsi la qualité des enregistrements.&lt;/p&gt;</description></item><item><title>Les données</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/data/</guid><description>&lt;h2 class="relative group"&gt;Données acoustiques
+ &lt;div id="données-acoustiques" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h2 class="relative group"&gt;Métadonnées
+ &lt;div id="métadonnées" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h2 class="relative group"&gt;Plan de gestion des données
+ &lt;div id="plan-de-gestion-des-données" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;</description></item><item><title>Les outils</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</guid><description>&lt;h2 class="relative group"&gt;Les approches
  &lt;div id="les-approches" class="anchor"&gt;&lt;/div&gt;
  
 &lt;/h2&gt;

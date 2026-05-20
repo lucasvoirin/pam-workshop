@@ -1,3 +1,8 @@
-<div class="not-prose relative left-1/2 w-screen -translate-x-1/2 px-6 my-6">
-    <a href="{{ .Get "file" }}">Télécharger le PDF</a>
+<div class="pdf-wrapper">
+  <iframe 
+    src="{{ .Get "src" }}" 
+    width="100%" 
+    height="{{ .Get "height" | default "600" }}"
+    style="border:none;">
+  </iframe>
 </div>

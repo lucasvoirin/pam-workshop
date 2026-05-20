@@ -2,8 +2,11 @@
 title: Ressources
 ---
 
-## À télécharger
+## Documents
 
-{{< button href="/pam-workshop/files/booklet.pdf" target="" >}}
-Livret pédagogique
-{{< /button >}}
+{{< pdf src="/pam-workshop/files/booklet.pdf" >}}
+
+## Audio
+
+{{< waveform id="demo1" audio="/pam-workshop/audio/clips.wav" >}}
+

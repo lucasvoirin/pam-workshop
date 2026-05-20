@@ -1,0 +1,55 @@
+<div id="ws-container-{{ .Get "id" }}" class="ws-widget">
+  <div id="waveform-{{ .Get "id" }}"></div>
+  <div id="spectrogram-{{ .Get "id" }}"></div>
+
+  <!-- 🎧 contrôles natifs -->
+  <audio id="audio-{{ .Get "id" }}" controls style="width:100%"></audio>
+</div>
+
+<script src="https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.min.js"></script>
+<script src="https://unpkg.com/wavesurfer.js@7/dist/plugins/spectrogram.min.js"></script>
+
+<script>
+(function() {
+  const id = '{{ .Get "id" }}';
+  const SpectrogramPlugin = WaveSurfer.Spectrogram;
+
+  const container = document.getElementById('ws-container-' + id);
+  const audioEl = document.getElementById('audio-' + id);
+
+  const observer = new ResizeObserver((entries) => {
+    const width = entries[0].contentRect.width;
+
+    if (width > 100) {
+      observer.disconnect();
+
+      const ws = WaveSurfer.create({
+        container: '#waveform-' + id,
+        media: audioEl, // ✅ on branche l'audio natif ici
+        waveColor: '{{ .Get "waveColor" | default "#4F8EF7" }}',
+        progressColor: '{{ .Get "progressColor" | default "#1a56db" }}',
+        height: {{ .Get "height" | default 80 }},
+        normalize: true,
+        fillParent: true,
+
+        plugins: [
+          SpectrogramPlugin.create({
+            container: '#spectrogram-' + id,
+            labels: true,
+            fftSamples: 1024,
+            noverlap: 512,
+            windowFunc: 'hann',
+            scale: 'linear',
+            height: {{ .Get "spectroHeight" | default 150 }},
+          }),
+        ],
+      });
+
+      // ✅ charger l’audio via l’élément HTML
+      ws.load('{{ .Get "audio" }}');
+    }
+  });
+
+  observer.observe(container);
+})();
+</script>

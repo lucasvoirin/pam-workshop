@@ -16,6 +16,30 @@
   weight = 10
 
 [[main]]
+	name = "1. Problématique"
+  parent = "Atelier"
+  pageRef = "workshop/research_question"
+  weight = 10
+
+[[main]]
+	name = "2. Déploiement"
+  parent = "Atelier"
+  pageRef = "workshop/deployment"
+  weight = 10
+
+[[main]]
+	name = "3. Analyses"
+  parent = "Atelier"
+  pageRef = "workshop/analyses"
+  weight = 10
+
+[[main]]
+	name = "4. Communication"
+  parent = "Atelier"
+  pageRef = "workshop/communication"
+  weight = 10
+
+[[main]]
  name = "Ressources"
  pageRef = "ressources"
  weight = 20

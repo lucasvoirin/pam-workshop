@@ -49,4 +49,19 @@
  
 &lt;/h3&gt;
 &lt;p&gt;La non-indépendance des données est rarement prise en compte dans les analyses statistiques faites sur les données issues de suivis acoustiques passifs.
-Pourtant, il y a souvent autocorrélation temporelle et spatiale entre les enregistrements issus de ces études, due au fait qu&amp;rsquo;un même enregistreur produise différents enregistrements et que plusieurs enregistreurs peuvent être présents sur un même site.&lt;/p&gt;</description></item></channel></rss>
+Pourtant, il y a souvent autocorrélation temporelle et spatiale entre les enregistrements issus de ces études, due au fait qu&amp;rsquo;un même enregistreur produise différents enregistrements et que plusieurs enregistreurs peuvent être présents sur un même site.&lt;/p&gt;</description></item><item><title>Écoacoustique et paysages sonores</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/ecoacoustics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/ecoacoustics/</guid><description>&lt;h2 class="relative group"&gt;Qu&amp;rsquo;est-ce que l&amp;rsquo;écoacoustique ?
+ &lt;div id="quest-ce-que-lécoacoustique-" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Définition&lt;/strong&gt; :&lt;br&gt;
+L&amp;rsquo;écoacoustique est une discipline qui utilise les sons de l&amp;rsquo;environnement (le paysage_sonore) pour étudier la biodiversité et les écosystèmes.
+L&amp;rsquo;écoacoustique se distingue de la bioacoustique car elle considère le son dans un contexte de processus écologiques plutôt que comme simple signal de communication.&lt;/p&gt;
+&lt;p&gt;Les indices acoustiques sont les principaux outils utilisés en écoacoustique.&lt;/p&gt;
+&lt;div class="admonition relative overflow-hidden rounded-lg border-l-4 my-3 px-4 py-3 shadow-sm" data-type="info"&gt;
+ &lt;div class="flex items-center gap-2 font-semibold text-inherit"&gt;
+ &lt;div class="flex shrink-0 h-5 w-5 items-center justify-center text-lg"&gt;&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="grow"&gt;
+ Source
+ &lt;/div&gt;
+ &lt;/div&gt;&lt;div class="admonition-content mt-3 text-base leading-relaxed text-inherit"&gt;&lt;p&gt;Sueur, J. &amp;amp; Farina, A. (2015). Ecoacoustics: the Ecological Investigation and Interpretation of Environmental Sound. Biosemiotics, 8, 493–502.&lt;/p&gt;</description></item></channel></rss>

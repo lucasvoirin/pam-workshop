@@ -30,7 +30,20 @@
  &lt;div id="détecter-la-présence" class="anchor"&gt;&lt;/div&gt;
  
 &lt;/h3&gt;
-&lt;p&gt;Les possibilités de couverture spatiale et temporelle, le caractère non invasif et la capacité à détecter des espèces difficilement observables autrement sont des atouts importants de l&amp;rsquo;utilisation du suivi acoustique passif pour la détection d&amp;rsquo;espèces.&lt;/p&gt;</description></item><item><title>Avantages et limites</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</guid><description>&lt;blockquote&gt;&lt;p&gt;Pourquoi est-ce utile d&amp;rsquo;utiliser le suivi acoustique passif ?&lt;/p&gt;
+&lt;p&gt;Les possibilités de couverture spatiale et temporelle, le caractère non invasif et la capacité à détecter des espèces difficilement observables autrement sont des atouts importants de l&amp;rsquo;utilisation du suivi acoustique passif pour la détection d&amp;rsquo;espèces.&lt;/p&gt;</description></item><item><title>Suivi acoustique passif 101</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/pam_101/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/pam_101/</guid><description>&lt;h2 class="relative group"&gt;Qu&amp;rsquo;est-ce qu&amp;rsquo;un suivi acoustique passif ?
+ &lt;div id="quest-ce-quun-suivi-acoustique-passif-" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Définition&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Méthode de suivi de la biodiversité basé sur des enregistrements audio faits par des enregistreurs autonomes, qui peuvent être laissés sur le terrain pendant plusieurs jours à plusieurs mois sans surveillance.&lt;/p&gt;
+&lt;div class="admonition relative overflow-hidden rounded-lg border-l-4 my-3 px-4 py-3 shadow-sm" data-type="info"&gt;
+ &lt;div class="flex items-center gap-2 font-semibold text-inherit"&gt;
+ &lt;div class="flex shrink-0 h-5 w-5 items-center justify-center text-lg"&gt;&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="grow"&gt;
+ Info
+ &lt;/div&gt;
+ &lt;/div&gt;&lt;div class="admonition-content mt-3 text-base leading-relaxed text-inherit"&gt;&lt;p&gt;Source Bradfer‐Lawrence, T., Buřivalová, Z., &amp;amp; Dent, D. (2025). Deriving meaning from acoustic data in hyper-diverse ecosystems. &lt;em&gt;Trends in ecology &amp;amp; evolution&lt;/em&gt;. &lt;a href="https://doi.org/10.1016/j.tree.2025.03.004" target="_blank" rel="noreferrer"&gt;https://doi.org/10.1016/j.tree.2025.03.004&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Avantages et limites</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</guid><description>&lt;blockquote&gt;&lt;p&gt;Pourquoi est-ce utile d&amp;rsquo;utiliser le suivi acoustique passif ?&lt;/p&gt;
 &lt;p&gt;Dans quel contexte cela n&amp;rsquo;est pas pertinent ?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 class="relative group"&gt;Avantages
@@ -107,7 +120,19 @@ Ces services permettent généralement d&amp;rsquo;associer un DOI au je de donn
 &lt;h2 class="relative group"&gt;Plan de gestion des données
  &lt;div id="plan-de-gestion-des-données" class="anchor"&gt;&lt;/div&gt;
  
-&lt;/h2&gt;</description></item><item><title>Les outils</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</guid><description>&lt;h2 class="relative group"&gt;Les approches
+&lt;/h2&gt;</description></item><item><title>Numériser le signal</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/quantization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/quantization/</guid><description>&lt;p&gt;Une onde sonore peut être représentée par un signal sinusoïdal.&lt;/p&gt;
+&lt;details class="code-fold"&gt;
+&lt;summary&gt;Code&lt;/summary&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-r" data-lang="r"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;0.01&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;y&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kc"&gt;pi&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;l&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;xlab&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;Temps&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ylab&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;Pression&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/details&gt;
+&lt;img src="fr/unnamed-chunk-1-1.png" width="768" /&gt;
+&lt;p&gt;Ce signal corespond aux variations de pression au cours du temps dans du milieu de propagation du son.&lt;/p&gt;
+&lt;p&gt;Ce signal est dit &lt;strong&gt;analogique&lt;/strong&gt; car il varie continuellement au cours du temps.&lt;/p&gt;
+&lt;p&gt;Pour traiter ce signal avec des appareils numériques, on ne peut pas le garder sous cette forme.
+On doit créer un signal &lt;strong&gt;numérique&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Pour cela on doit discrétiser le signal sur le temps et sur l&amp;rsquo;amplitude.&lt;/p&gt;</description></item><item><title>Les outils</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</guid><description>&lt;h2 class="relative group"&gt;Les approches
  &lt;div id="les-approches" class="anchor"&gt;&lt;/div&gt;
  
 &lt;/h2&gt;
@@ -124,7 +149,22 @@ Ces services permettent généralement d&amp;rsquo;associer un DOI au je de donn
  
 &lt;/h3&gt;
 &lt;p&gt;La non-indépendance des données est rarement prise en compte dans les analyses statistiques faites sur les données issues de suivis acoustiques passifs.
-Pourtant, il y a souvent autocorrélation temporelle et spatiale entre les enregistrements issus de ces études, due au fait qu&amp;rsquo;un même enregistreur produise différents enregistrements et que plusieurs enregistreurs peuvent être présents sur un même site.&lt;/p&gt;</description></item><item><title>Ressources</title><link>https://lucasvoirin.github.io/pam-workshop/fr/ressources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/ressources/</guid><description>&lt;h2 class="relative group"&gt;Documents
+Pourtant, il y a souvent autocorrélation temporelle et spatiale entre les enregistrements issus de ces études, due au fait qu&amp;rsquo;un même enregistreur produise différents enregistrements et que plusieurs enregistreurs peuvent être présents sur un même site.&lt;/p&gt;</description></item><item><title>Écoacoustique et paysages sonores</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/ecoacoustics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/ecoacoustics/</guid><description>&lt;h2 class="relative group"&gt;Qu&amp;rsquo;est-ce que l&amp;rsquo;écoacoustique ?
+ &lt;div id="quest-ce-que-lécoacoustique-" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Définition&lt;/strong&gt; :&lt;br&gt;
+L&amp;rsquo;écoacoustique est une discipline qui utilise les sons de l&amp;rsquo;environnement (le paysage_sonore) pour étudier la biodiversité et les écosystèmes.
+L&amp;rsquo;écoacoustique se distingue de la bioacoustique car elle considère le son dans un contexte de processus écologiques plutôt que comme simple signal de communication.&lt;/p&gt;
+&lt;p&gt;Les indices acoustiques sont les principaux outils utilisés en écoacoustique.&lt;/p&gt;
+&lt;div class="admonition relative overflow-hidden rounded-lg border-l-4 my-3 px-4 py-3 shadow-sm" data-type="info"&gt;
+ &lt;div class="flex items-center gap-2 font-semibold text-inherit"&gt;
+ &lt;div class="flex shrink-0 h-5 w-5 items-center justify-center text-lg"&gt;&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="grow"&gt;
+ Source
+ &lt;/div&gt;
+ &lt;/div&gt;&lt;div class="admonition-content mt-3 text-base leading-relaxed text-inherit"&gt;&lt;p&gt;Sueur, J. &amp;amp; Farina, A. (2015). Ecoacoustics: the Ecological Investigation and Interpretation of Environmental Sound. Biosemiotics, 8, 493–502.&lt;/p&gt;</description></item><item><title>Ressources</title><link>https://lucasvoirin.github.io/pam-workshop/fr/ressources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/ressources/</guid><description>&lt;h2 class="relative group"&gt;Documents
  &lt;div id="documents" class="anchor"&gt;&lt;/div&gt;
  
 &lt;/h2&gt;
@@ -203,4 +243,14 @@ Pourtant, il y a souvent autocorrélation temporelle et spatiale entre les enreg
  &lt;div id="google-colab" class="anchor"&gt;&lt;/div&gt;
  
 &lt;/h2&gt;
-&lt;p&gt;Google Colab est un service permettant d&amp;rsquo;éxécuter du code (R, Python) sur un ordinateur à distance.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Google Colab est un service permettant d&amp;rsquo;éxécuter du code (R, Python) sur un ordinateur à distance.&lt;/p&gt;</description></item><item><title>Votre avis nous intéresse !</title><link>https://lucasvoirin.github.io/pam-workshop/fr/feedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/feedback/</guid><description>&lt;p&gt;Vous avez participé à notre atelier ? Prenez 2 minutes pour nous dire ce que vous en avez pensé ! Vos retours nous aiderons à améliorer le contenu et le déroulé ! Merci !&lt;/p&gt;
+&lt;a
+ class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+ href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=1Yt3Vj9q00uiZZMWPk1b_szgNlPck05BmS8tPOgWY_FUODZIWkdRUUZLNUwwTzRUSlA4UElNTE1MTi4u"
+ target="_self"
+ 
+ role="button"&gt;
+ 
+Remplir le questionnaire
+
+&lt;/a&gt;</description></item></channel></rss>

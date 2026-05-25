@@ -4,7 +4,7 @@
   dir="ltr"
   class="scroll-smooth"
   data-default-appearance="light"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/pam-workshop/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=pam-workshop/livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="fr">
@@ -24,7 +24,7 @@
   
   
   
-  <link rel="canonical" href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/">
+  <link rel="canonical" href="http://localhost:1313/pam-workshop/fr/workshop/analyses/tools/">
   
 
   
@@ -32,7 +32,7 @@
   
 
   
-  <meta property="og:url" content="https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/">
+  <meta property="og:url" content="http://localhost:1313/pam-workshop/fr/workshop/analyses/tools/">
   <meta property="og:site_name" content="Le suivi acoustique passif">
   <meta property="og:title" content="Les outils">
   <meta property="og:description" content="Les approches Réseaux de neurones Les volumes de données produits par un suivi acoustique passif peuvent être très conséquents, notamment sur des suivis à long terme. L’analyse manuelle de la totalité de ces enregistrements est souvent impossible.
@@ -201,7 +201,7 @@ Le développement de l’intelligence artificielle et notamment des réseaux de 
     "headline": "Les outils",
     
     "inLanguage": "fr",
-    "url" : "https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/",
+    "url" : "http://localhost:1313/pam-workshop/fr/workshop/analyses/tools/",
     "author" : {
       "@type": "Person",
       "name": ""
@@ -215,19 +215,13 @@ Le développement de l’intelligence artificielle et notamment des réseaux de 
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "478"
+    "wordCount": "237"
   }]
   </script>
 
 
 
   
-  
-    
-
-
-
-
   
 
   
@@ -856,13 +850,7 @@ Le développement de l’intelligence artificielle et notamment des réseaux de 
     <li><a href="#les-approches">Les approches</a>
       <ul>
         <li><a href="#réseaux-de-neurones">Réseaux de neurones</a></li>
-        <li><a href="#indices-acoustiques">Indices acoustiques</a>
-          <ul>
-            <li><a href="#quest-ce-quun-indice-acoustique-">Qu&rsquo;est-ce qu&rsquo;un indice acoustique ?</a></li>
-            <li><a href="#quels-indices-acoustiques-utiliser-">Quels indices acoustiques utiliser ?</a></li>
-            <li><a href="#comment-calculer-un-indice-acoustique-">Comment calculer un indice acoustique ?</a></li>
-          </ul>
-        </li>
+        <li><a href="#indices-acoustiques">Indices acoustiques</a></li>
       </ul>
     </li>
     <li><a href="#logiciels">Logiciels</a>
@@ -887,13 +875,7 @@ Le développement de l’intelligence artificielle et notamment des réseaux de 
     <li><a href="#les-approches">Les approches</a>
       <ul>
         <li><a href="#réseaux-de-neurones">Réseaux de neurones</a></li>
-        <li><a href="#indices-acoustiques">Indices acoustiques</a>
-          <ul>
-            <li><a href="#quest-ce-quun-indice-acoustique-">Qu&rsquo;est-ce qu&rsquo;un indice acoustique ?</a></li>
-            <li><a href="#quels-indices-acoustiques-utiliser-">Quels indices acoustiques utiliser ?</a></li>
-            <li><a href="#comment-calculer-un-indice-acoustique-">Comment calculer un indice acoustique ?</a></li>
-          </ul>
-        </li>
+        <li><a href="#indices-acoustiques">Indices acoustiques</a></li>
       </ul>
     </li>
     <li><a href="#logiciels">Logiciels</a>
@@ -935,58 +917,8 @@ Le développement de l’intelligence artificielle et notamment des réseaux de 
     <div id="indices-acoustiques" class="anchor"></div>
     
 </h3>
+<p>Les indices acoustiques sont des métriques mesurées sur le spectrogramme pour résumer la distribution de l&rsquo;énergie acoustique en fonction du temps et de la fréquence.</p>
 
-<h4 class="relative group">Qu&rsquo;est-ce qu&rsquo;un indice acoustique ?
-    <div id="quest-ce-quun-indice-acoustique-" class="anchor"></div>
-    
-</h4>
-<p>Un indice acoustique quantifie la distribution et la structure de l&rsquo;énergie acoustique dans un enregistrement sonore.
-Il permet ainsi de caractériser les caractéristiques spectrales et temporelles d&rsquo;un paysage sonore.
-Cette quantification de la diversité ou complexité acoustique est utilisée comme une estimation de la diversité ou complexité biologique présente dans l&rsquo;écosystème.</p>
-<p>Les indices acoustiques sont les principaux outils utilisés en écoacoustique.</p>
-<div class="admonition relative overflow-hidden rounded-lg border-l-4 my-3 px-4 py-3 shadow-sm" data-type="tip">
-      <div class="flex items-center gap-2 font-semibold text-inherit">
-        <div class="flex shrink-0 h-5 w-5 items-center justify-center text-lg"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
-</span></div>
-        <div class="grow">
-          Exemples d&rsquo;applications
-        </div>
-      </div><div class="admonition-content mt-3 text-base leading-relaxed text-inherit"><ul>
-<li>Caractérisation de l&rsquo;intégrité d&rsquo;un habitat forestier (Sueur et al. 2008)</li>
-<li>Estimation de la richesse spécifique sur des sites forestiers (Depraetere et al. 2012)</li>
-<li>Suivi de tendances spatio-temporelles de la biophonie, géophonie ou anthropophonie (Halfwerk et al. 2011; Tucker et al. 2014; Erbe et al. 2015; Fuller et al. 2015)</li>
-<li>Étude de la phénologie de communautés (Farina et al. 2011; Desjonquères et al. 2015; Nedelec et al. 2015; Bittencourt et al. 2016)</li>
-</ul></div></div>
-<h4 class="relative group">Quels indices acoustiques utiliser ?
-    <div id="quels-indices-acoustiques-utiliser-" class="anchor"></div>
-    
-</h4>
-<p>Plus de 60 indices acoustiques ont été développés ces 15 dernières années (Buxton et al., 2018), mais certains sont plus couramment utilisés que d&rsquo;autres.
-Les indices acoustiques les plus utilisés sont:</p>
-<ul>
-<li>Acoustic Complexity Index (ACI)</li>
-<li>Acoustic Diversity Index (ADI)</li>
-<li>Acoustic Evenness Index (AEI)</li>
-<li>Bioacoustic Index (BIO)</li>
-<li>Total Entropy (H)</li>
-<li>Normalized Difference Soundscape Index (NDSI)</li>
-</ul>
-
-<h4 class="relative group">Comment calculer un indice acoustique ?
-    <div id="comment-calculer-un-indice-acoustique-" class="anchor"></div>
-    
-</h4>
-<p>Plusieurs librairies R et Python ont été développées pour calculer des indices acoustiques à partir d&rsquo;enregistrements.
-Les plus utilisées sont <a href="https://cran.r-project.org/web/packages/seewave/index.html"  target="_blank" rel="noreferrer">Seewave</a> et <a href="https://cran.r-project.org/web/packages/soundecology/index.html"  target="_blank" rel="noreferrer">Soundecology</a> sur R, <a href="https://scikit-maad.github.io/"  target="_blank" rel="noreferrer">Scikit-Maad</a> sur Python.</p>
-<div class="admonition relative overflow-hidden rounded-lg border-l-4 my-3 px-4 py-3 shadow-sm" data-type="tip">
-      <div class="flex items-center gap-2 font-semibold text-inherit">
-        <div class="flex shrink-0 h-5 w-5 items-center justify-center text-lg"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
-</span></div>
-        <div class="grow">
-          Pour en savoir plus
-        </div>
-      </div><div class="admonition-content mt-3 text-base leading-relaxed text-inherit"><p>L&rsquo;<a href="https://ecohack.shinyapps.io/Acoustic_Index_Users_Guide/"  target="_blank" rel="noreferrer">Acoustic Index User&rsquo;s Guide</a> détaille comment chaque indice est calculé avec différents exemples d&rsquo;enregistrements.
-C&rsquo;est un bon guide tant pour choisir l&rsquo;indice acoustique à utiliser que pour interpréter les résultats.</p></div></div>
 <h2 class="relative group">Logiciels
     <div id="logiciels" class="anchor"></div>
     
@@ -1134,7 +1066,7 @@ Certains logiciels open-source gratuits comme <a href="https://manual.audacityte
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
-  data-url="https://lucasvoirin.github.io/pam-workshop/fr/">
+  data-url="http://localhost:1313/pam-workshop/fr/">
   <div
     id="search-modal"
     class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">

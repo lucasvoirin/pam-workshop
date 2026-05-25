@@ -2,60 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3. Analyse des données on Le suivi acoustique passif</title>
-    <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/</link>
+    <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/</link>
     <description>Recent content in 3. Analyse des données on Le suivi acoustique passif</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     
-    <atom:link href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pam-workshop/fr/workshop/analyses/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>C&#39;est quoi un son?</title>
-      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/</link>
+      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/sound/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/</guid>
+      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/sound/</guid>
       <description>&lt;p&gt;Un son, c&amp;rsquo;est une vibration qui se propage dans un milieu (l&amp;rsquo;air ou l&amp;rsquo;eau par exemple).&lt;/p&gt;&#xA;&lt;p&gt;Cette vibration peut être produite par le mouvement d&amp;rsquo;un objet (une corde de guitare, une membrane de tambour).&lt;/p&gt;&#xA;&lt;p&gt;En bougeant dans le milieu, cet objet crée un alternance de pressions et de dépressions dans le milieu.&lt;/p&gt;&#xA;&lt;p&gt;Ce sont ces variations de pression qui se propagent et qui sont captées par nos oreilles ou par les microphones de nos enregistreurs passifs.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Le spectrogramme</title>
-      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/spectrogram/</link>
+      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/spectrogram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/spectrogram/</guid>
+      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/spectrogram/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Oscillogramme&#xA;    &lt;div id=&#34;oscillogramme&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Les sons que l&amp;rsquo;on enregistre sont des signaux complexes, composés de différentes fréquences et amplitudes. La représentation la plus simple est celle de la forme d&amp;rsquo;onde, qui affiche la pression en fonction du temps.&lt;/p&gt;&#xA;&lt;img src=&#34;index.fr.markdown_strict_files/figure-markdown_strict/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Spectrogramme&#xA;    &lt;div id=&#34;spectrogramme&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Pour faciliter la visualisation des fréquences et amplitudes composant un signal, on utilise un spectrogramme.&lt;/p&gt;&#xA;&lt;p&gt;On affiche trois éléments en même temps:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;le temps, sur l&amp;rsquo;axe des abscisses ;&lt;/li&gt;&#xA;&lt;li&gt;la fréquence, sur l&amp;rsquo;axe des ordonnées ;&lt;/li&gt;&#xA;&lt;li&gt;et l&amp;rsquo;amplitude, représentée par les gradients de couleurs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;img src=&#34;index.fr.markdown_strict_files/figure-markdown_strict/unnamed-chunk-2-1.png&#34; width=&#34;768&#34; /&gt;</description>
       
     </item>
     
     <item>
       <title>Les données</title>
-      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/data/</link>
+      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/data/</guid>
+      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/data/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Données acoustiques&#xA;    &lt;div id=&#34;données-acoustiques&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Métadonnées&#xA;    &lt;div id=&#34;métadonnées&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Plan de gestion des données&#xA;    &lt;div id=&#34;plan-de-gestion-des-données&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;</description>
       
     </item>
     
     <item>
       <title>Les outils</title>
-      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</link>
+      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/tools/</guid>
+      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/tools/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Les approches&#xA;    &lt;div id=&#34;les-approches&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;Réseaux de neurones&#xA;    &lt;div id=&#34;réseaux-de-neurones&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Les volumes de données produits par un suivi acoustique passif peuvent être très conséquents, notamment sur des suivis à long terme. L&amp;rsquo;analyse manuelle de la totalité de ces enregistrements est souvent impossible.&lt;/p&gt;&#xA;&lt;p&gt;Le développement de l&amp;rsquo;intelligence artificielle et notamment des réseaux de neurones profonds a permis la conception d&amp;rsquo;outils informatiques utiles pour le traitement des gros volumes de données. Il existe désormais des outils tels que BirdNET et YOLO dont les interfaces ne demandent pas de trop grandes compétences en informatique.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Les biais</title>
-      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/bias/</link>
+      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/bias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/bias/</guid>
+      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/bias/</guid>
       <description>&lt;p&gt;Le type d&amp;rsquo;analyses statistiques à effectuer dépend de la question de recherche donc nous n&amp;rsquo;allons pas ici entrer dans le détail des différentes analyses, mais simplement mentionner des points à garder en tête pour vos analyses.&lt;/p&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;Non-indépendance des données&#xA;    &lt;div id=&#34;non-indépendance-des-données&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;La non-indépendance des données est rarement prise en compte dans les analyses statistiques faites sur les données issues de suivis acoustiques passifs.&#xA;Pourtant, il y a souvent autocorrélation temporelle et spatiale entre les enregistrements issus de ces études, due au fait qu&amp;rsquo;un même enregistreur produise différents enregistrements et que plusieurs enregistreurs peuvent être présents sur un même site.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Écoacoustique et paysages sonores</title>
+      <link>http://localhost:1313/pam-workshop/fr/workshop/analyses/ecoacoustics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pam-workshop/fr/workshop/analyses/ecoacoustics/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Qu&amp;rsquo;est-ce que l&amp;rsquo;écoacoustique ?&#xA;    &lt;div id=&#34;quest-ce-que-lécoacoustique-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Définition&lt;/strong&gt; :&lt;br&gt;&#xA;L&amp;rsquo;écoacoustique est une discipline qui utilise les sons de l&amp;rsquo;environnement (le paysage_sonore) pour étudier la biodiversité et les écosystèmes.&#xA;L&amp;rsquo;écoacoustique se distingue de la bioacoustique car elle considère le son dans un contexte de processus écologiques plutôt que comme simple signal de communication.&lt;/p&gt;&#xA;&lt;p&gt;Les indices acoustiques sont les principaux outils utilisés en écoacoustique.&lt;/p&gt;&#xA;&lt;div class=&#34;admonition relative overflow-hidden rounded-lg border-l-4 my-3 px-4 py-3 shadow-sm&#34; data-type=&#34;info&#34;&gt;&#xA;      &lt;div class=&#34;flex items-center gap-2 font-semibold text-inherit&#34;&gt;&#xA;        &lt;div class=&#34;flex shrink-0 h-5 w-5 items-center justify-center text-lg&#34;&gt;&lt;span class=&#34;relative block icon&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/span&gt;&lt;/div&gt;&#xA;        &lt;div class=&#34;grow&#34;&gt;&#xA;          Source&#xA;        &lt;/div&gt;&#xA;      &lt;/div&gt;&lt;div class=&#34;admonition-content mt-3 text-base leading-relaxed text-inherit&#34;&gt;&lt;p&gt;Sueur, J. &amp;amp; Farina, A. (2015). Ecoacoustics: the Ecological Investigation and Interpretation of Environmental Sound. Biosemiotics, 8, 493–502.&lt;/p&gt;</description>
       
     </item>
     

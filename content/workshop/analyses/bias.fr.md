@@ -18,3 +18,9 @@ Il faut aussi garder en tête que chaque vocalisation ne correspond pas à un in
 
 De la même manière, les vocalisations enregistrées ne correspondent pas à la totalité des vocalisations émises sur le site. 
 Il est donc intéressant de prendre en compte dans vos modèles la probabilité de détection, qui dépend à la fois de la probabilité qu'un individu ou une espèce vocalise et de la probabilité que cette vocalisation soit enregistrée par le dispositif. Pour augmenter cette dernière, il est important d'avoir un protocole qui optimise la distribution temporelle et spatiale des enregistrements. L'habitat (densité de végétation, bruit de fond...) va aussi affecter la probabilité de détection.  
+
+### Faux positifs  
+
+La probabilité de détection permet de prendre en compte les faux négatifs (l'espèce est présente mais pas détectée), mais l'analyse des vocalisations peut également produire des faux positifs en cas d'erreur d'identification (l'espèce est détectée sur un enregistrement alors qu'elle n'est pas présente).  
+L'enjeu des faux positifs est d'autant plus important que l'utilisation d'algorithmes d'intelligence artificielle pour identifier les vocalisation est très susceptible d'occasionner des erreurs d'identification.  
+La validation manuelle permet de limiter ce risque, mais même une faible proportion de faux-positifs peut biaiser les résultats (Clare et al., 2018).   

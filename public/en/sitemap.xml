@@ -3,93 +3,93 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://lucasvoirin.github.io/pam-workshop/en/</loc>
+    <loc>http://localhost:1313/pam-workshop/en/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="fr"
-      href="https://lucasvoirin.github.io/pam-workshop/fr/"
+      href="http://localhost:1313/pam-workshop/fr/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://lucasvoirin.github.io/pam-workshop/en/"
+      href="http://localhost:1313/pam-workshop/en/"
     />
   </url>
   <url>
-    <loc>https://lucasvoirin.github.io/pam-workshop/en/workshop/research_question/</loc>
+    <loc>http://localhost:1313/pam-workshop/en/workshop/research_question/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="fr"
-      href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/"
+      href="http://localhost:1313/pam-workshop/fr/workshop/research_question/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://lucasvoirin.github.io/pam-workshop/en/workshop/research_question/"
+      href="http://localhost:1313/pam-workshop/en/workshop/research_question/"
     />
   </url>
   <url>
-    <loc>https://lucasvoirin.github.io/pam-workshop/en/workshop/deployment/</loc>
+    <loc>http://localhost:1313/pam-workshop/en/workshop/deployment/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="fr"
-      href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/"
+      href="http://localhost:1313/pam-workshop/fr/workshop/deployment/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://lucasvoirin.github.io/pam-workshop/en/workshop/deployment/"
+      href="http://localhost:1313/pam-workshop/en/workshop/deployment/"
     />
   </url>
   <url>
-    <loc>https://lucasvoirin.github.io/pam-workshop/en/workshop/analyses/</loc>
+    <loc>http://localhost:1313/pam-workshop/en/workshop/analyses/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="fr"
-      href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/"
+      href="http://localhost:1313/pam-workshop/fr/workshop/analyses/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://lucasvoirin.github.io/pam-workshop/en/workshop/analyses/"
+      href="http://localhost:1313/pam-workshop/en/workshop/analyses/"
     />
   </url>
   <url>
-    <loc>https://lucasvoirin.github.io/pam-workshop/en/workshop/</loc>
+    <loc>http://localhost:1313/pam-workshop/en/workshop/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="fr"
-      href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/"
+      href="http://localhost:1313/pam-workshop/fr/workshop/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://lucasvoirin.github.io/pam-workshop/en/workshop/"
+      href="http://localhost:1313/pam-workshop/en/workshop/"
     />
   </url>
   <url>
-    <loc>https://lucasvoirin.github.io/pam-workshop/en/ressources/</loc>
+    <loc>http://localhost:1313/pam-workshop/en/ressources/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="fr"
-      href="https://lucasvoirin.github.io/pam-workshop/fr/ressources/"
+      href="http://localhost:1313/pam-workshop/fr/ressources/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://lucasvoirin.github.io/pam-workshop/en/ressources/"
+      href="http://localhost:1313/pam-workshop/en/ressources/"
     />
   </url>
 </urlset>

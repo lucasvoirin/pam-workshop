@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3. Data analysis on Passive Acoustic Monitoring</title>
-    <link>https://lucasvoirin.github.io/pam-workshop/en/workshop/analyses/</link>
+    <link>http://localhost:1313/pam-workshop/en/workshop/analyses/</link>
     <description>Recent content in 3. Data analysis on Passive Acoustic Monitoring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <atom:link href="https://lucasvoirin.github.io/pam-workshop/en/workshop/analyses/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pam-workshop/en/workshop/analyses/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

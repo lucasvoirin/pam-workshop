@@ -61,4 +61,8 @@ Nous fournissons quelques exemples permettant de se familiariser avec les bases 
 - Gibb, R., Browning, E., Glover‐Kapfer, P., & Jones, K. E. (2019). Emerging opportunities and challenges for passive acoustics in ecological assessment and monitoring. _Methods in Ecology and Evolution_, _10_(2), 169-185. [https://doi.org/10.1111/fwb.13356](https://doi.org/10.1111/fwb.13356)
 - Shirose, L. J., C. A. Bishop, D. M. Green, J. M. Cameron, R. J. Brooks, and J. H. Natalie. 1997. Validation tests of an amphibian call count survey technique in Ontario, Canada. Herpetologica 53, 312.
 - Sugai, L.S.M., Desjonquères, C., Silva, T.S.F. and Llusia, D. (2020), A roadmap for survey designs in terrestrial acoustic monitoring. Remote Sens Ecol Conserv, 6: 220-235. [https://doi.org/10.1002/rse2.131](https://doi.org/10.1002/rse2.131)
-   
+- Hanf‐Dressler, T., Nouioua, R., Thomisch, K., Cazau, D., De Selys Longchamps, S., & Darras, K. (2026). Software Tools for Passive Acoustic Monitoring in Aquatic and Terrestrial Bio- and Ecoacoustics: A Living Systematic Review. F1000Research, 15. https://doi.org/10.12688/f1000research.173495.1.
+- Mellinger, D. K., Stafford, K. M., Moore, S. E., Dziak, R. P., & Matsumoto, H. (2007). An overview of fixed passive acoustic observation methods for cetaceans. Oceanography, 20(4), 36-45.
+- Clare, J. D. J., P. A.Townsend, and B.Zuckerberg. 2021. Generalized model-based solutions to false-positive error in species detection/nondetection data. Ecology102(2):e03241. 10.1002/ecy.3241
+- Pijanowski BC, Villanueva-Rivera LJ, Dumyahn SL, Farina A, Krause BL, Napoletano BM, Gage SH, Pieretti N. 2011. Soundscape ecology: The science of sound in the landscape. BioScience 61: 203–216.
+- Sueur J, Farina A. 2015. Ecoacoustics: The ecological investigation and interpretation of environmental sound. Biosemiotics 8: 493–502.

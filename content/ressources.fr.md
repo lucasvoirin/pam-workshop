@@ -8,6 +8,15 @@ title: Ressources
 
 ## Audio
 
+
+{{< button href="https://drive.google.com/drive/folders/1J6ZZBAOjEvhynLSrOUN3FOSCehKHrd0k?usp=sharing" target="_self" >}}
+Ouvrir le dossier des exemples de fichiers audio
+{{< /button >}}
+
+<br>
+<br>
+<br>
+
 {{< waveform id="demo1" audio="/pam-workshop/audio/clips.wav" >}}
 
 ## Google Colab

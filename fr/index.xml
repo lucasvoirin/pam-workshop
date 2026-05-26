@@ -212,6 +212,20 @@ L&amp;rsquo;écoacoustique se distingue de la bioacoustique car elle considère 
  &lt;div id="audio" class="anchor"&gt;&lt;/div&gt;
  
 &lt;/h2&gt;
+&lt;a
+ class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+ href="https://drive.google.com/drive/folders/1J6ZZBAOjEvhynLSrOUN3FOSCehKHrd0k?usp=sharing"
+ target="_self"
+ 
+ role="button"&gt;
+ 
+Ouvrir le dossier des exemples de fichiers audio
+
+&lt;/a&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
 &lt;div id="ws-container-demo1" class="ws-widget"&gt;
  &lt;div id="waveform-demo1"&gt;&lt;/div&gt;
  &lt;div id="spectrogram-demo1"&gt;&lt;/div&gt;

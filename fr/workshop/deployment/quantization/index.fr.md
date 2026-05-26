@@ -206,12 +206,12 @@ sf = 1
 
 x = seq(0,4,0.01)
 y = sin(2*pi*x)
-plot(x,y,type="l")
+plot(x,y,type="l",xlab="Temps", ylab="Pression")
 
 xp = seq(0,4,length.out=4*sf)
 yp = sin(2*pi*xp)
 
-points(xp,yp,col="red",pch=19,xlab="Temps", ylab="Pression")
+points(xp,yp,col="red",pch=19)
 
 
 ya = sin(2*pi*x*0.25)

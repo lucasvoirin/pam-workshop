@@ -9,6 +9,23 @@ format: hugo-md
 
 Les sons que l'on enregistre sont des signaux complexes, composés de différentes fréquences et amplitudes. La représentation la plus simple est celle de la forme d'onde, qui affiche la pression en fonction du temps.
 
+<details class="code-fold">
+<summary>Code</summary>
+
+``` r
+t = seq(0, 0.4, 0.00001)
+Fs = 1 / 0.00001
+f1 = seq(100, 500, length.out = length(t))
+s1 = sin(2*pi * f1 * t)
+f2 = seq(800, 600, length.out = length(t))
+s2 = sin(2*pi * f2 * t)
+s3 = sin(2*pi*300*t)
+signal = s1 *seq(0.3,0,length.out = length(t))+ s2*seq(0,0.4,length.out = length(t)) + 0.5*s3
+plot(t, signal, type="l",xlab="Temps (s)",ylab="Amplitude")
+```
+
+</details>
+
 <img src="index.fr.markdown_strict_files/figure-markdown_strict/unnamed-chunk-1-1.png" width="768" />
 
 ## Spectrogramme
@@ -20,5 +37,26 @@ On affiche trois éléments en même temps:
 - le temps, sur l'axe des abscisses ;
 - la fréquence, sur l'axe des ordonnées ;
 - et l'amplitude, représentée par les gradients de couleurs.
+
+<details class="code-fold">
+<summary>Code</summary>
+
+``` r
+seewave::spectro(
+  wave = signal,
+  f = Fs,
+  flim = c(0, 1),
+  wl = 1024*6,
+  ovlp = 50,
+  collevels = seq(-40, 0, 1),
+  palette = seewave::spectro.colors,
+    osc=F,
+    scale=F,
+    tlab="Temps (s)",
+    flab="Fréquence (kHz)"
+)
+```
+
+</details>
 
 <img src="index.fr.markdown_strict_files/figure-markdown_strict/unnamed-chunk-2-1.png" width="768" />

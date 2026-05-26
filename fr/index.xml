@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Le suivi acoustique passif</title><link>https://lucasvoirin.github.io/pam-workshop/fr/</link><description>Recent content on Le suivi acoustique passif</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://lucasvoirin.github.io/pam-workshop/fr/index.xml" rel="self" type="application/rss+xml"/><item><title>C'est quoi un son?</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/</guid><description>&lt;p&gt;Un son, c&amp;rsquo;est une vibration qui se propage dans un milieu (l&amp;rsquo;air ou l&amp;rsquo;eau par exemple).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Le suivi acoustique passif</title><link>https://lucasvoirin.github.io/pam-workshop/fr/</link><description>Recent content on Le suivi acoustique passif</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://lucasvoirin.github.io/pam-workshop/fr/index.xml" rel="self" type="application/rss+xml"/><item><title>0. Suivi acoustique passif 101</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/pam_101/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/pam_101/</guid><description>&lt;h2 class="relative group"&gt;Qu&amp;rsquo;est-ce qu&amp;rsquo;un suivi acoustique passif ?
+ &lt;div id="quest-ce-quun-suivi-acoustique-passif-" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Définition&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Méthode de suivi de la biodiversité basé sur des enregistrements audio faits par des enregistreurs autonomes, qui peuvent être laissés sur le terrain pendant plusieurs jours à plusieurs mois sans surveillance.&lt;/p&gt;
+&lt;div class="admonition relative overflow-hidden rounded-lg border-l-4 my-3 px-4 py-3 shadow-sm" data-type="info"&gt;
+ &lt;div class="flex items-center gap-2 font-semibold text-inherit"&gt;
+ &lt;div class="flex shrink-0 h-5 w-5 items-center justify-center text-lg"&gt;&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="grow"&gt;
+ Source
+ &lt;/div&gt;
+ &lt;/div&gt;&lt;div class="admonition-content mt-3 text-base leading-relaxed text-inherit"&gt;&lt;p&gt;Bradfer‐Lawrence, T., Buřivalová, Z., &amp;amp; Dent, D. (2025). Deriving meaning from acoustic data in hyper-diverse ecosystems. &lt;em&gt;Trends in ecology &amp;amp; evolution&lt;/em&gt;. &lt;a href="https://doi.org/10.1016/j.tree.2025.03.004" target="_blank" rel="noreferrer"&gt;https://doi.org/10.1016/j.tree.2025.03.004&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>C'est quoi un son?</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/</guid><description>&lt;p&gt;Un son, c&amp;rsquo;est une vibration qui se propage dans un milieu (l&amp;rsquo;air ou l&amp;rsquo;eau par exemple).&lt;/p&gt;
 &lt;p&gt;Cette vibration peut être produite par le mouvement d&amp;rsquo;un objet (une corde de guitare, une membrane de tambour).&lt;/p&gt;
 &lt;p&gt;En bougeant dans le milieu, cet objet crée un alternance de pressions et de dépressions dans le milieu.&lt;/p&gt;
 &lt;p&gt;Ce sont ces variations de pression qui se propagent et qui sont captées par nos oreilles ou par les microphones de nos enregistreurs passifs.&lt;/p&gt;</description></item><item><title>Le code</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/code/</guid><description>&lt;p&gt;Du design du suivi, jusqu&amp;rsquo;aux analyses statistiques, en passant par traitement des données acoustiques le suivi acoustic passif nécessite du code.&lt;/p&gt;
@@ -30,20 +43,7 @@
  &lt;div id="détecter-la-présence" class="anchor"&gt;&lt;/div&gt;
  
 &lt;/h3&gt;
-&lt;p&gt;Les possibilités de couverture spatiale et temporelle, le caractère non invasif et la capacité à détecter des espèces difficilement observables autrement sont des atouts importants de l&amp;rsquo;utilisation du suivi acoustique passif pour la détection d&amp;rsquo;espèces.&lt;/p&gt;</description></item><item><title>Suivi acoustique passif 101</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/pam_101/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/pam_101/</guid><description>&lt;h2 class="relative group"&gt;Qu&amp;rsquo;est-ce qu&amp;rsquo;un suivi acoustique passif ?
- &lt;div id="quest-ce-quun-suivi-acoustique-passif-" class="anchor"&gt;&lt;/div&gt;
- 
-&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Définition&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Méthode de suivi de la biodiversité basé sur des enregistrements audio faits par des enregistreurs autonomes, qui peuvent être laissés sur le terrain pendant plusieurs jours à plusieurs mois sans surveillance.&lt;/p&gt;
-&lt;div class="admonition relative overflow-hidden rounded-lg border-l-4 my-3 px-4 py-3 shadow-sm" data-type="info"&gt;
- &lt;div class="flex items-center gap-2 font-semibold text-inherit"&gt;
- &lt;div class="flex shrink-0 h-5 w-5 items-center justify-center text-lg"&gt;&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"/&gt;&lt;/svg&gt;
-&lt;/span&gt;&lt;/div&gt;
- &lt;div class="grow"&gt;
- Info
- &lt;/div&gt;
- &lt;/div&gt;&lt;div class="admonition-content mt-3 text-base leading-relaxed text-inherit"&gt;&lt;p&gt;Source Bradfer‐Lawrence, T., Buřivalová, Z., &amp;amp; Dent, D. (2025). Deriving meaning from acoustic data in hyper-diverse ecosystems. &lt;em&gt;Trends in ecology &amp;amp; evolution&lt;/em&gt;. &lt;a href="https://doi.org/10.1016/j.tree.2025.03.004" target="_blank" rel="noreferrer"&gt;https://doi.org/10.1016/j.tree.2025.03.004&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Avantages et limites</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</guid><description>&lt;blockquote&gt;&lt;p&gt;Pourquoi est-ce utile d&amp;rsquo;utiliser le suivi acoustique passif ?&lt;/p&gt;
+&lt;p&gt;Les possibilités de couverture spatiale et temporelle, le caractère non invasif et la capacité à détecter des espèces difficilement observables autrement sont des atouts importants de l&amp;rsquo;utilisation du suivi acoustique passif pour la détection d&amp;rsquo;espèces.&lt;/p&gt;</description></item><item><title>Avantages et limites</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</guid><description>&lt;blockquote&gt;&lt;p&gt;Pourquoi est-ce utile d&amp;rsquo;utiliser le suivi acoustique passif ?&lt;/p&gt;
 &lt;p&gt;Dans quel contexte cela n&amp;rsquo;est pas pertinent ?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 class="relative group"&gt;Avantages
@@ -70,6 +70,18 @@
  
 &lt;/h2&gt;
 &lt;p&gt;Les sons que l&amp;rsquo;on enregistre sont des signaux complexes, composés de différentes fréquences et amplitudes. La représentation la plus simple est celle de la forme d&amp;rsquo;onde, qui affiche la pression en fonction du temps.&lt;/p&gt;
+&lt;details class="code-fold"&gt;
+&lt;summary&gt;Code&lt;/summary&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-r" data-lang="r"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;0.4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;0.00001&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;Fs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="m"&gt;0.00001&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;f1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;100&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;500&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;length.out&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;s1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kc"&gt;pi&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;f1&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;f2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;800&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;600&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;length.out&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;s2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kc"&gt;pi&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;f2&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;s3&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kc"&gt;pi&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="m"&gt;300&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;signal&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;s1&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0.3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;length.out&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;s2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nf"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;0.4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;length.out&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="m"&gt;0.5&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;s3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;signal&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;l&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;xlab&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;Temps (s)&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;ylab&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;Amplitude&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/details&gt;
 &lt;img src="index.fr.markdown_strict_files/figure-markdown_strict/unnamed-chunk-1-1.png" width="768" /&gt;
 
 &lt;h2 class="relative group"&gt;Spectrogramme
@@ -77,13 +89,7 @@
  
 &lt;/h2&gt;
 &lt;p&gt;Pour faciliter la visualisation des fréquences et amplitudes composant un signal, on utilise un spectrogramme.&lt;/p&gt;
-&lt;p&gt;On affiche trois éléments en même temps:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;le temps, sur l&amp;rsquo;axe des abscisses ;&lt;/li&gt;
-&lt;li&gt;la fréquence, sur l&amp;rsquo;axe des ordonnées ;&lt;/li&gt;
-&lt;li&gt;et l&amp;rsquo;amplitude, représentée par les gradients de couleurs.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;img src="index.fr.markdown_strict_files/figure-markdown_strict/unnamed-chunk-2-1.png" width="768" /&gt;</description></item><item><title>Les sons</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</guid><description>&lt;p&gt;Pour sauvegarder et partager des fichiers audio, il existe deux solutions principales.&lt;/p&gt;
+&lt;p&gt;On affiche trois éléments en même temps:&lt;/p&gt;</description></item><item><title>Les sons</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/communication/sounds/</guid><description>&lt;p&gt;Pour sauvegarder et partager des fichiers audio, il existe deux solutions principales.&lt;/p&gt;
 
 &lt;h2 class="relative group"&gt;Dépôts en ligne
  &lt;div id="dépôts-en-ligne" class="anchor"&gt;&lt;/div&gt;
@@ -142,7 +148,31 @@ On doit créer un signal &lt;strong&gt;numérique&lt;/strong&gt;.&lt;/p&gt;
  
 &lt;/h3&gt;
 &lt;p&gt;Les volumes de données produits par un suivi acoustique passif peuvent être très conséquents, notamment sur des suivis à long terme. L&amp;rsquo;analyse manuelle de la totalité de ces enregistrements est souvent impossible.&lt;/p&gt;
-&lt;p&gt;Le développement de l&amp;rsquo;intelligence artificielle et notamment des réseaux de neurones profonds a permis la conception d&amp;rsquo;outils informatiques utiles pour le traitement des gros volumes de données. Il existe désormais des outils tels que BirdNET et YOLO dont les interfaces ne demandent pas de trop grandes compétences en informatique.&lt;/p&gt;</description></item><item><title>Les biais</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/bias/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/bias/</guid><description>&lt;p&gt;Le type d&amp;rsquo;analyses statistiques à effectuer dépend de la question de recherche donc nous n&amp;rsquo;allons pas ici entrer dans le détail des différentes analyses, mais simplement mentionner des points à garder en tête pour vos analyses.&lt;/p&gt;
+&lt;p&gt;Le développement de l&amp;rsquo;intelligence artificielle et notamment des réseaux de neurones profonds a permis la conception d&amp;rsquo;outils informatiques utiles pour le traitement des gros volumes de données. Il existe désormais des outils tels que BirdNET et YOLO dont les interfaces ne demandent pas de trop grandes compétences en informatique.&lt;/p&gt;</description></item><item><title>Gestion de la batterie</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/</guid><description>&lt;h2 class="relative group"&gt;Évolution de la tension
+ &lt;div id="évolution-de-la-tension" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;figure&gt;&lt;img
+ class="my-0 rounded-md"
+ loading="lazy"
+ decoding="async"
+ fetchpriority="low"
+ alt=""
+ src="https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/tension.png"
+ &gt;&lt;/figure&gt;
+
+&lt;h2 class="relative group"&gt;Effet de la température
+ &lt;div id="effet-de-la-température" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;figure&gt;&lt;img
+ class="my-0 rounded-md"
+ loading="lazy"
+ decoding="async"
+ fetchpriority="low"
+ alt=""
+ src="https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/tension_temperature.png"
+ &gt;&lt;/figure&gt;</description></item><item><title>Les biais</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/bias/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/bias/</guid><description>&lt;p&gt;Le type d&amp;rsquo;analyses statistiques à effectuer dépend de la question de recherche donc nous n&amp;rsquo;allons pas ici entrer dans le détail des différentes analyses, mais simplement mentionner des points à garder en tête pour vos analyses.&lt;/p&gt;
 
 &lt;h3 class="relative group"&gt;Non-indépendance des données
  &lt;div id="non-indépendance-des-données" class="anchor"&gt;&lt;/div&gt;

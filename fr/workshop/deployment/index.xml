@@ -25,4 +25,28 @@
 &lt;p&gt;Ce signal est dit &lt;strong&gt;analogique&lt;/strong&gt; car il varie continuellement au cours du temps.&lt;/p&gt;
 &lt;p&gt;Pour traiter ce signal avec des appareils numériques, on ne peut pas le garder sous cette forme.
 On doit créer un signal &lt;strong&gt;numérique&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Pour cela on doit discrétiser le signal sur le temps et sur l&amp;rsquo;amplitude.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Pour cela on doit discrétiser le signal sur le temps et sur l&amp;rsquo;amplitude.&lt;/p&gt;</description></item><item><title>Gestion de la batterie</title><link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/</guid><description>&lt;h2 class="relative group"&gt;Évolution de la tension
+ &lt;div id="évolution-de-la-tension" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;figure&gt;&lt;img
+ class="my-0 rounded-md"
+ loading="lazy"
+ decoding="async"
+ fetchpriority="low"
+ alt=""
+ src="https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/tension.png"
+ &gt;&lt;/figure&gt;
+
+&lt;h2 class="relative group"&gt;Effet de la température
+ &lt;div id="effet-de-la-température" class="anchor"&gt;&lt;/div&gt;
+ 
+&lt;/h2&gt;
+&lt;figure&gt;&lt;img
+ class="my-0 rounded-md"
+ loading="lazy"
+ decoding="async"
+ fetchpriority="low"
+ alt=""
+ src="https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/tension_temperature.png"
+ &gt;&lt;/figure&gt;</description></item></channel></rss>

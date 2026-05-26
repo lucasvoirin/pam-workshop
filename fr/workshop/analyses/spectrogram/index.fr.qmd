@@ -10,7 +10,7 @@ Les sons que l'on enregistre sont des signaux complexes, composés de différent
 
 
 ```{r}
-#| echo: false
+#| code-fold: true
 
 t = seq(0, 0.4, 0.00001)
 Fs = 1 / 0.00001
@@ -34,7 +34,7 @@ On affiche trois éléments en même temps:
 - et l'amplitude, représentée par les gradients de couleurs.
 
 ```{r}
-#| echo: false
+#| code-fold: true
 
 seewave::spectro(
   wave = signal,

@@ -1,5 +1,6 @@
 ---
 title: "2. Recorders deployment"
+draft: true
 ---
 Deploying recorders in the field is an important step in passive acoustic monitoring. It is necessary to take into account certain elements before going into the field.  
 

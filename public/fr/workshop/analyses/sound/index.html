@@ -4,7 +4,7 @@
   dir="ltr"
   class="scroll-smooth"
   data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/pam-workshop/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=pam-workshop/livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="fr">
@@ -24,7 +24,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:1313/pam-workshop/fr/workshop/analyses/sound/">
+  <link rel="canonical" href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/">
   
 
   
@@ -32,7 +32,7 @@
   
 
   
-  <meta property="og:url" content="http://localhost:1313/pam-workshop/fr/workshop/analyses/sound/">
+  <meta property="og:url" content="https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/">
   <meta property="og:site_name" content="Le suivi acoustique passif">
   <meta property="og:title" content="C&#39;est quoi un son?">
   <meta property="og:description" content="Un son, c’est une vibration qui se propage dans un milieu (l’air ou l’eau par exemple).
@@ -205,7 +205,7 @@ Ce sont ces variations de pression qui se propagent et qui sont captées par nos
     "headline": "C\u0027est quoi un son?",
     
     "inLanguage": "fr",
-    "url" : "http://localhost:1313/pam-workshop/fr/workshop/analyses/sound/",
+    "url" : "https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/sound/",
     "author" : {
       "@type": "Person",
       "name": ""
@@ -219,13 +219,19 @@ Ce sont ces variations de pression qui se propagent et qui sont captées par nos
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "435"
+    "wordCount": "506"
   }]
   </script>
 
 
 
   
+  
+    
+
+
+
+
   
 
   
@@ -909,6 +915,12 @@ Ce sont ces variations de pression qui se propagent et qui sont captées par nos
 <p>En bougeant dans le milieu, cet objet crée un alternance de pressions et de dépressions dans le milieu.</p>
 <p>Ce sont ces variations de pression qui se propagent et qui sont captées par nos oreilles ou par les microphones de nos enregistreurs passifs.</p>
 <p>Pour représenter les augmentations puis diminutions susccessives de la pression, on utilise généralement une sinusoïde.</p>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">type</span><span class="o">=</span><span class="s">&#34;l&#34;</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s">&#34;Temps&#34;</span><span class="p">,</span> <span class="n">ylab</span><span class="o">=</span><span class="s">&#34;Pression&#34;</span><span class="p">)</span></span></span></code></pre></div></div>
+</details>
 <img src="fr/unnamed-chunk-1-1.png" width="768" />
 <p>Il existe deux caractéristiques principales qui permettent de décrire ce son.</p>
 
@@ -923,9 +935,33 @@ Ce sont ces variations de pression qui se propagent et qui sont captées par nos
 </h3>
 <p>Le son est un signal périodique, il se répète à l&rsquo;identique au cours du temps.</p>
 <p>Sur le son précédent, on peut identifier le motif le plus cours qui se répète. On appelle ce motif la période.</p>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">type</span><span class="o">=</span><span class="s">&#34;l&#34;</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s">&#34;Temps&#34;</span><span class="p">,</span> <span class="n">ylab</span><span class="o">=</span><span class="s">&#34;Pression&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x1</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">y1</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="o">*</span><span class="n">x1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">points</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span><span class="n">y1</span><span class="p">,</span><span class="n">type</span><span class="o">=</span><span class="s">&#34;l&#34;</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="s">&#34;red&#34;</span><span class="p">,</span><span class="n">lwd</span><span class="o">=</span><span class="m">2</span><span class="p">)</span></span></span></code></pre></div></div>
+</details>
 <img src="fr/unnamed-chunk-2-1.png" width="768" />
 <p>La fréquence du son, c&rsquo;est le nombre de fois que la période se répète en une seconde. On l&rsquo;exprime en hertz (Hz).</p>
 <p>Ici notre signal a une fréquence de 1 Hz, car sa période dure exactement 1 seconde</p>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">type</span><span class="o">=</span><span class="s">&#34;l&#34;</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s">&#34;Temps&#34;</span><span class="p">,</span> <span class="n">ylab</span><span class="o">=</span><span class="s">&#34;Pression&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x1</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">y1</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="o">*</span><span class="n">x1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">points</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span><span class="n">y1</span><span class="p">,</span><span class="n">type</span><span class="o">=</span><span class="s">&#34;l&#34;</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="s">&#34;red&#34;</span><span class="p">,</span><span class="n">lwd</span><span class="o">=</span><span class="m">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">abline</span><span class="p">(</span><span class="n">v</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">),</span><span class="n">lty</span><span class="o">=</span><span class="s">&#34;dotted&#34;</span><span class="p">)</span></span></span></code></pre></div></div>
+</details>
 <img src="fr/unnamed-chunk-3-1.png" width="768" />
 <p>La sensation auditive associée à la fréquence correspond à des sons perçus comme plus ou moins graves ou aigus. Plus la fréquence est grande (beaucoup de périodes en une seconde), plus le son nous parait aigu.</p>
 <p>L&rsquo;oreille humaine est capable de percevoir des sons allant de 20 à 20000 Hz, soit de 20 à 20000 périodes par seconde. En dessous de 20 Hz, ce sont des infrasons, au dessus de 20 000 Hz, ce sont des ultrasons.</p>
@@ -936,6 +972,16 @@ Ce sont ces variations de pression qui se propagent et qui sont captées par nos
 </h3>
 <p>L&rsquo;amplitude d&rsquo;un son représente l&rsquo;intensité de la variation de pression.</p>
 <p>Deux sons peuvent avoir la même fréquence, mais des pressions maximales et minimales différentes.</p>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">type</span><span class="o">=</span><span class="s">&#34;l&#34;</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s">&#34;Temps&#34;</span><span class="p">,</span> <span class="n">ylab</span><span class="o">=</span><span class="s">&#34;Pression&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">y1</span> <span class="o">=</span> <span class="n">y</span> <span class="o">*</span> <span class="m">0.5</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">points</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y1</span><span class="p">,</span><span class="n">type</span><span class="o">=</span><span class="s">&#34;l&#34;</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="s">&#34;blue&#34;</span><span class="p">)</span></span></span></code></pre></div></div>
+</details>
 <img src="fr/unnamed-chunk-4-1.png" width="768" />
 <p>L&rsquo;amplitude d&rsquo;un son, c&rsquo;est l&rsquo;étendue des pressions produites par le son.</p>
 <p>La sensation auditive associée à l&rsquo;amplitude correspond au volume sonore. Plus l&rsquo;amplitude est grande, plus le son parait fort.</p>
@@ -951,6 +997,16 @@ Ce sont ces variations de pression qui se propagent et qui sont captées par nos
 </h3>
 <p>En pratique il existe une troisième caractéristique pour décrire un son. Il s&rsquo;agit de la phase.</p>
 <p>Deux sons peuvent avoir exactement la même féquence et la même amplitude, mais être légèrement décalés dans le temps. C&rsquo;est leur phase qui est différente.</p>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">type</span><span class="o">=</span><span class="s">&#34;l&#34;</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s">&#34;Temps&#34;</span><span class="p">,</span> <span class="n">ylab</span><span class="o">=</span><span class="s">&#34;Pression&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">y1</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="o">*</span><span class="n">x</span><span class="m">+0.9</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">points</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y1</span><span class="p">,</span><span class="n">type</span><span class="o">=</span><span class="s">&#34;l&#34;</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s">&#34;blue&#34;</span><span class="p">)</span></span></span></code></pre></div></div>
+</details>
 <img src="fr/unnamed-chunk-5-1.png" width="768" />
 
 <h3 class="relative group">Des sons composés
@@ -1068,7 +1124,7 @@ Ce sont ces variations de pression qui se propagent et qui sont captées par nos
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
-  data-url="http://localhost:1313/pam-workshop/fr/">
+  data-url="https://lucasvoirin.github.io/pam-workshop/fr/">
   <div
     id="search-modal"
     class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">

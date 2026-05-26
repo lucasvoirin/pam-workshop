@@ -15,6 +15,17 @@ Ce sont ces variations de pression qui se propagent et qui sont captées par nos
 
 Pour représenter les augmentations puis diminutions susccessives de la pression, on utilise généralement une sinusoïde.
 
+<details class="code-fold">
+<summary>Code</summary>
+
+``` r
+x = seq(0,4,0.01)
+y = sin(2*pi*x)
+plot(x,y,type="l",xlab="Temps", ylab="Pression")
+```
+
+</details>
+
 <img src="fr/unnamed-chunk-1-1.png" width="768" />
 
 Il existe deux caractéristiques principales qui permettent de décrire ce son.
@@ -27,11 +38,45 @@ Le son est un signal périodique, il se répète à l'identique au cours du temp
 
 Sur le son précédent, on peut identifier le motif le plus cours qui se répète. On appelle ce motif la période.
 
+<details class="code-fold">
+<summary>Code</summary>
+
+``` r
+x = seq(0,4,0.01)
+y = sin(2*pi*x)
+plot(x,y,type="l",xlab="Temps", ylab="Pression")
+
+x1 = seq(0,1,0.01)
+y1 = sin(2*pi*x1)
+
+points(x1,y1,type="l",col="red",lwd=2)
+```
+
+</details>
+
 <img src="fr/unnamed-chunk-2-1.png" width="768" />
 
 La fréquence du son, c'est le nombre de fois que la période se répète en une seconde. On l'exprime en hertz (Hz).
 
 Ici notre signal a une fréquence de 1 Hz, car sa période dure exactement 1 seconde
+
+<details class="code-fold">
+<summary>Code</summary>
+
+``` r
+x = seq(0,4,0.01)
+y = sin(2*pi*x)
+plot(x,y,type="l",xlab="Temps", ylab="Pression")
+
+x1 = seq(0,1,0.01)
+y1 = sin(2*pi*x1)
+
+points(x1,y1,type="l",col="red",lwd=2)
+
+abline(v=c(0,1),lty="dotted")
+```
+
+</details>
 
 <img src="fr/unnamed-chunk-3-1.png" width="768" />
 
@@ -44,6 +89,21 @@ L'oreille humaine est capable de percevoir des sons allant de 20 à 20000 Hz, so
 L'amplitude d'un son représente l'intensité de la variation de pression.
 
 Deux sons peuvent avoir la même fréquence, mais des pressions maximales et minimales différentes.
+
+<details class="code-fold">
+<summary>Code</summary>
+
+``` r
+x = seq(0,4,0.01)
+y = sin(2*pi*x)
+plot(x,y,type="l",xlab="Temps", ylab="Pression")
+
+y1 = y * 0.5
+
+points(x,y1,type="l",col="blue")
+```
+
+</details>
 
 <img src="fr/unnamed-chunk-4-1.png" width="768" />
 
@@ -58,6 +118,21 @@ La sensation auditive associée à l'amplitude correspond au volume sonore. Plus
 En pratique il existe une troisième caractéristique pour décrire un son. Il s'agit de la phase.
 
 Deux sons peuvent avoir exactement la même féquence et la même amplitude, mais être légèrement décalés dans le temps. C'est leur phase qui est différente.
+
+<details class="code-fold">
+<summary>Code</summary>
+
+``` r
+x = seq(0,4,0.01)
+y = sin(2*pi*x)
+plot(x,y,type="l",xlab="Temps", ylab="Pression")
+
+y1 = sin(2*pi*x+0.9)
+
+points(x,y1,type="l", col="blue")
+```
+
+</details>
 
 <img src="fr/unnamed-chunk-5-1.png" width="768" />
 

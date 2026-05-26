@@ -30,3 +30,12 @@ La plupart des enregistreurs fonctionnent sur batteries. Il est néanmoins possi
 ## Stockage des données
 
 Le stockage des données se fait généralement à l'aide d'une carte mémoire de type [carte SD](https://fr.wikipedia.org/wiki/Carte_SD). La dimension de la carte nécessaire varie selon les modèles.
+
+## Liste non exhaustive de modèles d'enregistreurs
+
+- https://www.openacousticdevices.info/audiomoth
+- https://www.wildlifeacoustics.com/shop
+- https://www.frontierlabs.com.au/acoustic-recorders
+- https://store.birds.cornell.edu/products/swift-recorder
+- https://framagit.org/PiBatRecorderPojects/TeensyRecorders
+

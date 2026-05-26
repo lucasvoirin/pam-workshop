@@ -18,7 +18,8 @@ Ce sont ces variations de pression qui se propagent et qui sont captées par nos
 
 Pour représenter les augmentations puis diminutions susccessives de la pression, on utilise généralement une sinusoïde.
 
-```{r echo=FALSE}
+```{r}
+#| code-fold: true
 
 x = seq(0,4,0.01)
 y = sin(2*pi*x)
@@ -36,7 +37,8 @@ Le son est un signal périodique, il se répète à l'identique au cours du temp
 
 Sur le son précédent, on peut identifier le motif le plus cours qui se répète. On appelle ce motif la période.
 
-```{r echo=FALSE}
+```{r}
+#| code-fold: true
 
 x = seq(0,4,0.01)
 y = sin(2*pi*x)
@@ -54,7 +56,8 @@ La fréquence du son, c'est le nombre de fois que la période se répète en une
 Ici notre signal a une fréquence de 1 Hz, car sa période dure exactement 1 seconde
 
 
-```{r echo=FALSE}
+```{r}
+#| code-fold: true
 
 x = seq(0,4,0.01)
 y = sin(2*pi*x)
@@ -81,7 +84,8 @@ L'amplitude d'un son représente l'intensité de la variation de pression.
 
 Deux sons peuvent avoir la même fréquence, mais des pressions maximales et minimales différentes.
 
-```{r echo=FALSE}
+```{r}
+#| code-fold: true
 
 x = seq(0,4,0.01)
 y = sin(2*pi*x)
@@ -106,7 +110,8 @@ En pratique il existe une troisième caractéristique pour décrire un son. Il s
 
 Deux sons peuvent avoir exactement la même féquence et la même amplitude, mais être légèrement décalés dans le temps. C'est leur phase qui est différente.
 
-```{r echo=FALSE}
+```{r}
+#| code-fold: true
 
 x = seq(0,4,0.01)
 y = sin(2*pi*x)

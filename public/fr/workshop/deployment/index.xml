@@ -2,40 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2. Déploiement des enregistreurs on Le suivi acoustique passif</title>
-    <link>http://localhost:1313/pam-workshop/fr/workshop/deployment/</link>
+    <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/</link>
     <description>Recent content in 2. Déploiement des enregistreurs on Le suivi acoustique passif</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     
-    <atom:link href="http://localhost:1313/pam-workshop/fr/workshop/deployment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Matériel</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/deployment/equipment/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/equipment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/deployment/equipment/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/equipment/</guid>
       <description>&lt;p&gt;L&amp;rsquo;outil de base du suivi acoustique passif est l&amp;rsquo;enregistreur autonome.&lt;/p&gt;&#xA;&lt;p&gt;Il s&amp;rsquo;agit d&amp;rsquo;un appareil électronique programmable composé d&amp;rsquo;un système de capture du son, d&amp;rsquo;un système d&amp;rsquo;alimentation électrique et d&amp;rsquo;un système de stockage des données.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Programmation des enregistrements&#xA;    &lt;div id=&#34;programmation-des-enregistrements&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;intérêt de l&amp;rsquo;enregistreur autonome repose principalement sur la possibilité de pouvoir le programmer. L&amp;rsquo;interface de programmation est différente selon les constructeurs et les modèles mais les options restent similaires.&lt;/p&gt;&#xA;&lt;p&gt;Il est généralement possible de programmer la fréquence et la durée des périodes d&amp;rsquo;enregistrement, mais aussi de baser les périodes sur le lever et coucher du soleil.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Réglages des enregistreurs</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/deployment/settings/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/settings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/deployment/settings/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/settings/</guid>
       <description>&lt;p&gt;Lors de la programmation d&amp;rsquo;un enregistreur, il est généralement nécessaire de spécifier certains paramètres acoustiques. Ces paramètres définissent la façon dont le micro de enregistre la pression sonore.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Gain&#xA;    &lt;div id=&#34;gain&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Le gain est une constante par laquelle l&amp;rsquo;enregistreur multiplie la puissance du signal reçu. Cela peut permettre d&amp;rsquo;augmenter la puissance de signaux faibles ou diminuer la puissance de signaux trop forts.&lt;/p&gt;&#xA;&lt;p&gt;Même si cela peut être tentant d&amp;rsquo;augmenter le gain pour obtenir des signaux plus forts, cela entraîne généralement une augmentation du bruit et diminue ainsi la qualité des enregistrements.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Numériser le signal</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/deployment/quantization/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/quantization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/deployment/quantization/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/quantization/</guid>
       <description>&lt;p&gt;Une onde sonore peut être représentée par un signal sinusoïdal.&lt;/p&gt;&#xA;&lt;details class=&#34;code-fold&#34;&gt;&#xA;&lt;summary&gt;Code&lt;/summary&gt;&#xA;&lt;div class=&#34;highlight-wrapper&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0.01&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;sin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;pi&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;l&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xlab&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Temps&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ylab&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Pression&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&#xA;&lt;/details&gt;&#xA;&lt;img src=&#34;fr/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&#xA;&lt;p&gt;Ce signal corespond aux variations de pression au cours du temps dans du milieu de propagation du son.&lt;/p&gt;&#xA;&lt;p&gt;Ce signal est dit &lt;strong&gt;analogique&lt;/strong&gt; car il varie continuellement au cours du temps.&lt;/p&gt;&#xA;&lt;p&gt;Pour traiter ce signal avec des appareils numériques, on ne peut pas le garder sous cette forme.&#xA;On doit créer un signal &lt;strong&gt;numérique&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Pour cela on doit discrétiser le signal sur le temps et sur l&amp;rsquo;amplitude.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Gestion de la batterie</title>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Évolution de la tension&#xA;    &lt;div id=&#34;évolution-de-la-tension&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;figure&gt;&lt;img&#xA;    class=&#34;my-0 rounded-md&#34;&#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    fetchpriority=&#34;low&#34;&#xA;    alt=&#34;&#34;&#xA;    src=&#34;https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/tension.png&#34;&#xA;    &gt;&lt;/figure&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Effet de la température&#xA;    &lt;div id=&#34;effet-de-la-température&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;figure&gt;&lt;img&#xA;    class=&#34;my-0 rounded-md&#34;&#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    fetchpriority=&#34;low&#34;&#xA;    alt=&#34;&#34;&#xA;    src=&#34;https://lucasvoirin.github.io/pam-workshop/fr/workshop/deployment/battery/tension_temperature.png&#34;&#xA;    &gt;&lt;/figure&gt;</description>
       
     </item>
     

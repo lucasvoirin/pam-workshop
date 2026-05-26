@@ -1,5 +1,5 @@
 ---
-title: Suivi acoustique passif 101
+title: 0. Suivi acoustique passif 101
 format: hugo-md
 weight: 1
 ---
@@ -11,8 +11,8 @@ weight: 1
 
 Méthode de suivi de la biodiversité basé sur des enregistrements audio faits par des enregistreurs autonomes, qui peuvent être laissés sur le terrain pendant plusieurs jours à plusieurs mois sans surveillance.
 
-> [!INFO]
-> Source Bradfer‐Lawrence, T., Buřivalová, Z., & Dent, D. (2025). Deriving meaning from acoustic data in hyper-diverse ecosystems. *Trends in ecology & evolution*. https://doi.org/10.1016/j.tree.2025.03.004.
+> [!INFO] Source
+> Bradfer‐Lawrence, T., Buřivalová, Z., & Dent, D. (2025). Deriving meaning from acoustic data in hyper-diverse ecosystems. *Trends in ecology & evolution*. https://doi.org/10.1016/j.tree.2025.03.004.
 
 ## Historique des suivis acoustiques passifs
 

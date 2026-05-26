@@ -4,7 +4,7 @@
   dir="ltr"
   class="scroll-smooth"
   data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/pam-workshop/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=pam-workshop/livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="fr">
@@ -24,7 +24,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:1313/pam-workshop/fr/workshop/analyses/spectrogram/">
+  <link rel="canonical" href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/spectrogram/">
   
 
   
@@ -32,13 +32,12 @@
   
 
   
-  <meta property="og:url" content="http://localhost:1313/pam-workshop/fr/workshop/analyses/spectrogram/">
+  <meta property="og:url" content="https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/spectrogram/">
   <meta property="og:site_name" content="Le suivi acoustique passif">
   <meta property="og:title" content="Le spectrogramme">
   <meta property="og:description" content="Oscillogramme Les sons que l’on enregistre sont des signaux complexes, composés de différentes fréquences et amplitudes. La représentation la plus simple est celle de la forme d’onde, qui affiche la pression en fonction du temps.
-Spectrogramme Pour faciliter la visualisation des fréquences et amplitudes composant un signal, on utilise un spectrogramme.
-On affiche trois éléments en même temps:
-le temps, sur l’axe des abscisses ; la fréquence, sur l’axe des ordonnées ; et l’amplitude, représentée par les gradients de couleurs.">
+Code t = seq(0, 0.4, 0.00001) Fs = 1 / 0.00001 f1 = seq(100, 500, length.out = length(t)) s1 = sin(2*pi * f1 * t) f2 = seq(800, 600, length.out = length(t)) s2 = sin(2*pi * f2 * t) s3 = sin(2*pi*300*t) signal = s1 *seq(0.3,0,length.out = length(t))&#43; s2*seq(0,0.4,length.out = length(t)) &#43; 0.5*s3 plot(t, signal, type=&#34;l&#34;,xlab=&#34;Temps (s)&#34;,ylab=&#34;Amplitude&#34;) Spectrogramme Pour faciliter la visualisation des fréquences et amplitudes composant un signal, on utilise un spectrogramme.
+On affiche trois éléments en même temps:">
   <meta property="og:locale" content="fr">
   <meta property="og:type" content="article">
     <meta property="article:section" content="workshop">
@@ -47,9 +46,8 @@ le temps, sur l’axe des abscisses ; la fréquence, sur l’axe des ordonnées 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Le spectrogramme">
   <meta name="twitter:description" content="Oscillogramme Les sons que l’on enregistre sont des signaux complexes, composés de différentes fréquences et amplitudes. La représentation la plus simple est celle de la forme d’onde, qui affiche la pression en fonction du temps.
-Spectrogramme Pour faciliter la visualisation des fréquences et amplitudes composant un signal, on utilise un spectrogramme.
-On affiche trois éléments en même temps:
-le temps, sur l’axe des abscisses ; la fréquence, sur l’axe des ordonnées ; et l’amplitude, représentée par les gradients de couleurs.">
+Code t = seq(0, 0.4, 0.00001) Fs = 1 / 0.00001 f1 = seq(100, 500, length.out = length(t)) s1 = sin(2*pi * f1 * t) f2 = seq(800, 600, length.out = length(t)) s2 = sin(2*pi * f2 * t) s3 = sin(2*pi*300*t) signal = s1 *seq(0.3,0,length.out = length(t))&#43; s2*seq(0,0.4,length.out = length(t)) &#43; 0.5*s3 plot(t, signal, type=&#34;l&#34;,xlab=&#34;Temps (s)&#34;,ylab=&#34;Amplitude&#34;) Spectrogramme Pour faciliter la visualisation des fréquences et amplitudes composant un signal, on utilise un spectrogramme.
+On affiche trois éléments en même temps:">
 
   
   
@@ -205,7 +203,7 @@ le temps, sur l’axe des abscisses ; la fréquence, sur l’axe des ordonnées 
     "headline": "Le spectrogramme",
     
     "inLanguage": "fr",
-    "url" : "http://localhost:1313/pam-workshop/fr/workshop/analyses/spectrogram/",
+    "url" : "https://lucasvoirin.github.io/pam-workshop/fr/workshop/analyses/spectrogram/",
     "author" : {
       "@type": "Person",
       "name": ""
@@ -219,13 +217,19 @@ le temps, sur l’axe des abscisses ; la fréquence, sur l’axe des ordonnées 
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "80"
+    "wordCount": "170"
   }]
   </script>
 
 
 
   
+  
+    
+
+
+
+
   
 
   
@@ -890,6 +894,18 @@ le temps, sur l’axe des abscisses ; la fréquence, sur l’axe des ordonnées 
     
 </h2>
 <p>Les sons que l&rsquo;on enregistre sont des signaux complexes, composés de différentes fréquences et amplitudes. La représentation la plus simple est celle de la forme d&rsquo;onde, qui affiche la pression en fonction du temps.</p>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">t</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0.4</span><span class="p">,</span> <span class="m">0.00001</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">Fs</span> <span class="o">=</span> <span class="m">1</span> <span class="o">/</span> <span class="m">0.00001</span>
+</span></span><span class="line"><span class="cl"><span class="n">f1</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">100</span><span class="p">,</span> <span class="m">500</span><span class="p">,</span> <span class="n">length.out</span> <span class="o">=</span> <span class="nf">length</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">s1</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span> <span class="o">*</span> <span class="n">f1</span> <span class="o">*</span> <span class="n">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">f2</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">800</span><span class="p">,</span> <span class="m">600</span><span class="p">,</span> <span class="n">length.out</span> <span class="o">=</span> <span class="nf">length</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">s2</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span> <span class="o">*</span> <span class="n">f2</span> <span class="o">*</span> <span class="n">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">s3</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="o">*</span><span class="m">300</span><span class="o">*</span><span class="n">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">signal</span> <span class="o">=</span> <span class="n">s1</span> <span class="o">*</span><span class="nf">seq</span><span class="p">(</span><span class="m">0.3</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="n">length.out</span> <span class="o">=</span> <span class="nf">length</span><span class="p">(</span><span class="n">t</span><span class="p">))</span><span class="o">+</span> <span class="n">s2</span><span class="o">*</span><span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0.4</span><span class="p">,</span><span class="n">length.out</span> <span class="o">=</span> <span class="nf">length</span><span class="p">(</span><span class="n">t</span><span class="p">))</span> <span class="o">+</span> <span class="m">0.5</span><span class="o">*</span><span class="n">s3</span>
+</span></span><span class="line"><span class="cl"><span class="nf">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">signal</span><span class="p">,</span> <span class="n">type</span><span class="o">=</span><span class="s">&#34;l&#34;</span><span class="p">,</span><span class="n">xlab</span><span class="o">=</span><span class="s">&#34;Temps (s)&#34;</span><span class="p">,</span><span class="n">ylab</span><span class="o">=</span><span class="s">&#34;Amplitude&#34;</span><span class="p">)</span></span></span></code></pre></div></div>
+</details>
 <img src="index.fr.markdown_strict_files/figure-markdown_strict/unnamed-chunk-1-1.png" width="768" />
 
 <h2 class="relative group">Spectrogramme
@@ -903,6 +919,22 @@ le temps, sur l’axe des abscisses ; la fréquence, sur l’axe des ordonnées 
 <li>la fréquence, sur l&rsquo;axe des ordonnées ;</li>
 <li>et l&rsquo;amplitude, représentée par les gradients de couleurs.</li>
 </ul>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">seewave</span><span class="o">::</span><span class="nf">spectro</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="n">wave</span> <span class="o">=</span> <span class="n">signal</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">f</span> <span class="o">=</span> <span class="n">Fs</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">flim</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">  <span class="n">wl</span> <span class="o">=</span> <span class="m">1024</span><span class="o">*</span><span class="m">6</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">ovlp</span> <span class="o">=</span> <span class="m">50</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">collevels</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">-40</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">  <span class="n">palette</span> <span class="o">=</span> <span class="n">seewave</span><span class="o">::</span><span class="n">spectro.colors</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">osc</span><span class="o">=</span><span class="bp">F</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">scale</span><span class="o">=</span><span class="bp">F</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tlab</span><span class="o">=</span><span class="s">&#34;Temps (s)&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">flab</span><span class="o">=</span><span class="s">&#34;Fréquence (kHz)&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span></span></span></code></pre></div></div>
+</details>
 <img src="index.fr.markdown_strict_files/figure-markdown_strict/unnamed-chunk-2-1.png" width="768" />
 
           
@@ -1022,7 +1054,7 @@ le temps, sur l’axe des abscisses ; la fréquence, sur l’axe des ordonnées 
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
-  data-url="http://localhost:1313/pam-workshop/fr/">
+  data-url="https://lucasvoirin.github.io/pam-workshop/fr/">
   <div
     id="search-modal"
     class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">

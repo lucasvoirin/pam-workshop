@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1. Problématique de recherche on Le suivi acoustique passif</title>
-    <link>http://localhost:1313/pam-workshop/fr/workshop/research_question/</link>
+    <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/</link>
     <description>Recent content in 1. Problématique de recherche on Le suivi acoustique passif</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     
-    <atom:link href="http://localhost:1313/pam-workshop/fr/workshop/research_question/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Objectifs de l&#39;étude</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/research_question/objectives/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/research_question/objectives/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/objectives/</guid>
       <description>&lt;blockquote&gt;&lt;p&gt;Pourquoi choisir de mettre en place un suivi acoustique passif ?&lt;/p&gt;&#xA;&lt;p&gt;À quelles questions cela permet-il de répondre ?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;1. Étudier une population&#xA;    &lt;div id=&#34;1-étudier-une-population&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Un suivi acoustique passif peut permettre de répondre à différentes questions relatives à une espèce d&amp;rsquo;intérêt.&lt;/p&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;Détecter la présence&#xA;    &lt;div id=&#34;détecter-la-présence&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Les possibilités de couverture spatiale et temporelle, le caractère non invasif et la capacité à détecter des espèces difficilement observables autrement sont des atouts importants de l&amp;rsquo;utilisation du suivi acoustique passif pour la détection d&amp;rsquo;espèces.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Avantages et limites</title>
-      <link>http://localhost:1313/pam-workshop/fr/workshop/research_question/advantages_limitations/</link>
+      <link>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pam-workshop/fr/workshop/research_question/advantages_limitations/</guid>
+      <guid>https://lucasvoirin.github.io/pam-workshop/fr/workshop/research_question/advantages_limitations/</guid>
       <description>&lt;blockquote&gt;&lt;p&gt;Pourquoi est-ce utile d&amp;rsquo;utiliser le suivi acoustique passif ?&lt;/p&gt;&#xA;&lt;p&gt;Dans quel contexte cela n&amp;rsquo;est pas pertinent ?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Avantages&#xA;    &lt;div id=&#34;avantages&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Suivi autonome&lt;/li&gt;&#xA;&lt;li&gt;Méthode non invasive&lt;/li&gt;&#xA;&lt;li&gt;Suivi à long terme&lt;/li&gt;&#xA;&lt;li&gt;Suivi d&amp;rsquo;espèces discrètes&lt;/li&gt;&#xA;&lt;li&gt;Diversité des environnements&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Limites&#xA;    &lt;div id=&#34;limites&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Nécessite que les espèces produisent des sons&lt;/li&gt;&#xA;&lt;li&gt;Nécessite que les sons produits soient liés à la problématique&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       
     </item>

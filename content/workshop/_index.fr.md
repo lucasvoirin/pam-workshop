@@ -22,3 +22,9 @@ L'atelier s'achèvera par une mise en commun des réflexions et outils pour perm
 - de **trouver les ressources** pertinentes pour passer à l'action.
 
 Aucune expérience préalable requise, seulement de la curiosité! 
+
+
+
+{{< button href="https://docs.google.com/document/d/1-I_de3gkvE3m0yXjhtf6pCQTuDgJ0j1PHySBqNK4Q54/copy?usp=sharing" target="_self" >}}
+Ouvrir la feuille de route dans Google Docs
+{{< /button >}}

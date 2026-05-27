@@ -26,6 +26,11 @@ Google Colab est un service permettant d'éxécuter du code (R, Python) sur un o
 Nous fournissons quelques exemples permettant de se familiariser avec les bases de l'analyse de données pour le suivi acoustique passif.
 
 - [Détection automatique avec BirdNET](https://colab.research.google.com/drive/1et1qdtvqY03LmF_mVpkQpvJkYrJFnEjH?usp=sharing)
+- [Lecture des données et métadonnées audio](https://colab.research.google.com/drive/1egLrdABiZQcz-uO588R5jDW_j7L1SBms?usp=sharing)
+- [Échantillons audio et spectrogrammes](https://colab.research.google.com/drive/1nkS1v4dpbGjmxgSF4EnmZ1CJEVl3KVxw?usp=sharing)
+- [Calcul d'indices acoustiques avec Python](https://drive.google.com/file/d/1J0KCpRhYmmwwxxlhop3kwQbPrc3dQ0xg/view?usp=sharing)
+- [Calcul d'indices acoustiques avec R](https://drive.google.com/file/d/1SzE-i2I0BkJ1HMbPiJWPBwR4sgjdfBjX/view?usp=sharing)
+
 
 ## Références
 
